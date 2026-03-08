@@ -47,7 +47,11 @@ async function start() {
     },
   });
 
-  await startMcp(app);
+  try {
+    await startMcp(app);
+  } catch (err) {
+    Logger.warn('MCP/Mastra initialization failed, continuing without it: ' + (err instanceof Error ? err.message : String(err)));
+  }
 
   app.useGlobalPipes(
     new ValidationPipe({
