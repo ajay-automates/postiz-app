@@ -58,6 +58,8 @@ export function Login() {
         });
       }
       setLoading(false);
+    } else if (login.status === 200) {
+      window.location.href = '/';
     }
   };
   return (
