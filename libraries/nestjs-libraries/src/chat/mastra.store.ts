@@ -1,5 +1,11 @@
-import { PostgresStore, PgVector } from '@mastra/pg';
+let _pStore: any = null;
 
-export const pStore = new PostgresStore({
-  connectionString: process.env.DATABASE_URL,
-});
+export const getPStore = async () => {
+  if (!_pStore) {
+    const { PostgresStore } = await import('@mastra/pg');
+    _pStore = new PostgresStore({
+      connectionString: process.env.DATABASE_URL,
+    });
+  }
+  return _pStore;
+};

@@ -1,3 +1,6 @@
+import * as dns from 'node:dns';
+dns.setDefaultResultOrder('ipv4first');
+
 import { initializeSentry } from '@gitroom/nestjs-libraries/sentry/initialize.sentry';
 initializeSentry('backend', true);
 import compression from 'compression';
