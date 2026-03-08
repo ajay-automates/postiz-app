@@ -1,5 +1,5 @@
 import { AgentToolInterface } from '@gitroom/nestjs-libraries/chat/agent.tool.interface';
-import { createTool } from '@mastra/core/tools';
+
 import { z } from 'zod';
 import { Injectable } from '@nestjs/common';
 import {
@@ -14,7 +14,8 @@ export class IntegrationValidationTool implements AgentToolInterface {
   constructor(private _integrationManager: IntegrationManager) {}
   name = 'integrationSchema';
 
-  run() {
+  async run() {
+    const { createTool } = await import('@mastra/core/tools');
     return createTool({
       id: 'integrationSchema',
       description: `Everytime we want to schedule a social media post, we need to understand the schema of the integration.

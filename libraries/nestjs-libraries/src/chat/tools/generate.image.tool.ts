@@ -1,5 +1,5 @@
 import { AgentToolInterface } from '@gitroom/nestjs-libraries/chat/agent.tool.interface';
-import { createTool } from '@mastra/core/tools';
+
 import { z } from 'zod';
 import { Injectable } from '@nestjs/common';
 import { MediaService } from '@gitroom/nestjs-libraries/database/prisma/media/media.service';
@@ -13,7 +13,8 @@ export class GenerateImageTool implements AgentToolInterface {
   constructor(private _mediaService: MediaService) {}
   name = 'generateImageTool';
 
-  run() {
+  async run() {
+    const { createTool } = await import('@mastra/core/tools');
     return createTool({
       id: 'generateImageTool',
       description: `Generate image to use in a post,

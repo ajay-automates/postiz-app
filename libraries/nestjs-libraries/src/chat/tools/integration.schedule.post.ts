@@ -1,5 +1,5 @@
 import { AgentToolInterface } from '@gitroom/nestjs-libraries/chat/agent.tool.interface';
-import { createTool } from '@mastra/core/tools';
+
 import { z } from 'zod';
 import { Injectable } from '@nestjs/common';
 import { socialIntegrationList } from '@gitroom/nestjs-libraries/integrations/integration.manager';
@@ -28,7 +28,8 @@ export class IntegrationSchedulePostTool implements AgentToolInterface {
   ) {}
   name = 'integrationSchedulePostTool';
 
-  run() {
+  async run() {
+    const { createTool } = await import('@mastra/core/tools');
     return createTool({
       id: 'schedulePostTool',
       description: `

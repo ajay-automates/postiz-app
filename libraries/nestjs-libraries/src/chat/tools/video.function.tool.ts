@@ -1,5 +1,5 @@
 import { AgentToolInterface } from '@gitroom/nestjs-libraries/chat/agent.tool.interface';
-import { createTool } from '@mastra/core/tools';
+
 import { Injectable } from '@nestjs/common';
 import { VideoManager } from '@gitroom/nestjs-libraries/videos/video.manager';
 import z from 'zod';
@@ -14,7 +14,8 @@ export class VideoFunctionTool implements AgentToolInterface {
   ) {}
   name = 'videoFunctionTool';
 
-  run() {
+  async run() {
+    const { createTool } = await import('@mastra/core/tools');
     return createTool({
       id: 'videoFunctionTool',
       description: `Sometimes when we want to generate videos we might need to get some additional information like voice_id, etc`,

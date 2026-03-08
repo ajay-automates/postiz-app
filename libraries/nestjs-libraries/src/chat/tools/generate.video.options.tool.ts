@@ -2,7 +2,7 @@ import {
   AgentToolInterface,
   ToolReturn,
 } from '@gitroom/nestjs-libraries/chat/agent.tool.interface';
-import { createTool } from '@mastra/core/tools';
+
 import { Injectable } from '@nestjs/common';
 import { getValidationSchemas } from '@gitroom/nestjs-libraries/chat/validation.schemas.helper';
 import { VideoManager } from '@gitroom/nestjs-libraries/videos/video.manager';
@@ -14,7 +14,8 @@ export class GenerateVideoOptionsTool implements AgentToolInterface {
   constructor(private _videoManagerService: VideoManager) {}
   name = 'generateVideoOptions';
 
-  run() {
+  async run() {
+    const { createTool } = await import('@mastra/core/tools');
     return createTool({
       id: 'generateVideoOptions',
       description: `All the options to generate videos, some tools might require another call to generateVideoFunction`,

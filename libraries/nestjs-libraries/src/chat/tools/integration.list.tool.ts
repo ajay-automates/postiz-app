@@ -2,7 +2,7 @@ import {
   AgentToolInterface,
   ToolReturn,
 } from '@gitroom/nestjs-libraries/chat/agent.tool.interface';
-import { createTool } from '@mastra/core/tools';
+
 import { Injectable } from '@nestjs/common';
 import { IntegrationService } from '@gitroom/nestjs-libraries/database/prisma/integrations/integration.service';
 import z from 'zod';
@@ -14,7 +14,8 @@ export class IntegrationListTool implements AgentToolInterface {
   constructor(private _integrationService: IntegrationService) {}
   name = 'integrationList';
 
-  run() {
+  async run() {
+    const { createTool } = await import('@mastra/core/tools');
     return createTool({
       id: 'integrationList',
       description: `This tool list available integrations to schedule posts to`,

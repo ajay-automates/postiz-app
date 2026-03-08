@@ -1,5 +1,5 @@
 import { AgentToolInterface } from '@gitroom/nestjs-libraries/chat/agent.tool.interface';
-import { createTool } from '@mastra/core/tools';
+
 import { z } from 'zod';
 import { Injectable } from '@nestjs/common';
 import {
@@ -21,7 +21,8 @@ export class IntegrationTriggerTool implements AgentToolInterface {
   ) {}
   name = 'triggerTool';
 
-  run() {
+  async run() {
+    const { createTool } = await import('@mastra/core/tools');
     return createTool({
       id: 'triggerTool',
       description: `After using the integrationSchema, we sometimes miss details we can\'t ask from the user, like ids.

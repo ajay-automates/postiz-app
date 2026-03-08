@@ -1,7 +1,6 @@
 import { INestApplication } from '@nestjs/common';
 import { Request, Response } from 'express';
 import { MastraService } from '@gitroom/nestjs-libraries/chat/mastra.service';
-import { MCPServer } from '@mastra/mcp';
 import { randomUUID } from 'crypto';
 import { OrganizationService } from '@gitroom/nestjs-libraries/database/prisma/organizations/organization.service';
 import { OAuthService } from '@gitroom/nestjs-libraries/database/prisma/oauth/oauth.service';
@@ -19,6 +18,8 @@ export const startMcp = async (app: INestApplication) => {
     }
     return organizationService.getOrgByApiKey(token);
   };
+
+  const { MCPServer } = await import('@mastra/mcp');
 
   const mastra = await mastraService.mastra();
   const agent = mastra.getAgent('postiz');

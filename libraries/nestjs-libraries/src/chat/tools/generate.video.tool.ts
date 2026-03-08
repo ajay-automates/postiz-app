@@ -1,5 +1,5 @@
 import { AgentToolInterface } from '@gitroom/nestjs-libraries/chat/agent.tool.interface';
-import { createTool } from '@mastra/core/tools';
+
 import { z } from 'zod';
 import { Injectable } from '@nestjs/common';
 import {
@@ -22,7 +22,8 @@ export class GenerateVideoTool implements AgentToolInterface {
   ) {}
   name = 'generateVideoTool';
 
-  run() {
+  async run() {
+    const { createTool } = await import('@mastra/core/tools');
     return createTool({
       id: 'generateVideoTool',
       description: `Generate video to use in a post,
