@@ -54,7 +54,8 @@ export class EmailService {
         });
     } catch (err) {
       // Temporal not available, skip email sending
-      console.warn('Failed to send email via Temporal:', err?.message || err);
+      const msg = err instanceof Error ? err.message : String(err);
+      console.warn('Failed to send email via Temporal:', msg);
     }
   }
 
