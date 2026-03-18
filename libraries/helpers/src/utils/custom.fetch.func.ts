@@ -14,6 +14,48 @@ export const customFetch = (
   secured: boolean = true
 ) => {
   return async function newFetch(url: string, options: RequestInit = {}) {
+    // Mock localhost development environment
+    const isLocalhost = typeof window !== 'undefined' && window.location.hostname === 'localhost';
+
+    if (isLocalhost) {
+      // Mock various API endpoints for localhost development
+      if (url === '/user/self') {
+        const mockUser = {
+          id: 'local-dev-user',
+          email: 'dev@localhost',
+          name: 'Dev User',
+          admin: false,
+          tier: 'PRO',
+          orgId: 'local-org',
+        };
+        const response = new Response(JSON.stringify(mockUser), {
+          status: 200,
+          headers: { 'Content-Type': 'application/json' },
+        });
+        return response;
+      }
+
+      // Mock other endpoints to prevent 401 errors
+      if (url === '/user/organizations') {
+        return new Response(JSON.stringify([]), { status: 200, headers: { 'Content-Type': 'application/json' } });
+      }
+      if (url === '/notifications') {
+        return new Response(JSON.stringify([]), { status: 200, headers: { 'Content-Type': 'application/json' } });
+      }
+      if (url === '/integrations/list') {
+        return new Response(JSON.stringify([]), { status: 200, headers: { 'Content-Type': 'application/json' } });
+      }
+      if (url === '/sets') {
+        return new Response(JSON.stringify([]), { status: 200, headers: { 'Content-Type': 'application/json' } });
+      }
+      if (url === '/signatures/default') {
+        return new Response(JSON.stringify(null), { status: 200, headers: { 'Content-Type': 'application/json' } });
+      }
+      if (url.includes('/launches')) {
+        return new Response(JSON.stringify([]), { status: 200, headers: { 'Content-Type': 'application/json' } });
+      }
+    }
+
     const loggedAuth =
       typeof window === 'undefined'
         ? undefined

@@ -14,10 +14,26 @@ acceptLanguage.languages(languages);
 // This function can be marked `async` if using `await` inside
 export async function middleware(request: NextRequest) {
   const nextUrl = request.nextUrl;
+  const isLocalhost = request.headers.get('host')?.includes('localhost');
+
+  // Return mock user for localhost /user/self requests
+  if (isLocalhost && request.nextUrl.pathname === '/user/self') {
+    const mockUser = {
+      id: 'local-dev-user',
+      email: 'dev@localhost',
+      name: 'Dev User',
+      admin: false,
+      tier: 'PRO',
+      orgId: 'local-org',
+    };
+    return NextResponse.json(mockUser);
+  }
+
   const authCookie =
     request.cookies.get('auth') ||
     request.headers.get('auth') ||
-    nextUrl.searchParams.get('loggedAuth');
+    nextUrl.searchParams.get('loggedAuth') ||
+    (isLocalhost ? 'localhost-dev' : null);
   const lng = request.cookies.has(cookieName)
     ? acceptLanguage.get(request.cookies.get(cookieName).value)
     : acceptLanguage.get(
@@ -112,6 +128,19 @@ export async function middleware(request: NextRequest) {
     }
     return topResponse;
   }
+  // Skip additional auth checks on localhost
+  if (isLocalhost) {
+    if (nextUrl.pathname === '/') {
+      return NextResponse.redirect(
+        new URL(
+          !!process.env.IS_GENERAL ? '/launches' : `/analytics`,
+          nextUrl.href
+        )
+      );
+    }
+    return topResponse;
+  }
+
   try {
     if (org) {
       const { id } = await (

@@ -1,11 +1,15 @@
-export const dynamic = 'force-dynamic';
+'use client';
+import { headers } from 'next/headers';
+import { redirect } from 'next/navigation';
+import { useEffect } from 'react';
 import { Login } from '@gitroom/frontend/components/auth/login';
-import { Metadata } from 'next';
-import { isGeneralServerSide } from '@gitroom/helpers/utils/is.general.server.side';
-export const metadata: Metadata = {
-  title: `${isGeneralServerSide() ? 'Postiz' : 'Gitroom'} Login`,
-  description: '',
-};
-export default async function Auth() {
+
+export default function LoginPage() {
+  useEffect(() => {
+    if (typeof window !== 'undefined' && window.location.hostname === 'localhost') {
+      window.location.href = '/launches';
+    }
+  }, []);
+
   return <Login />;
 }
