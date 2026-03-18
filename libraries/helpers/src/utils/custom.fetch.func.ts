@@ -41,8 +41,23 @@ export const customFetch = (
       }
       if (url === '/integrations') {
         return new Response(JSON.stringify({
-          social: [],
-          article: []
+          social: [
+            { identifier: 'twitter', name: 'X (Twitter)', isExternal: false, isWeb3: false },
+            { identifier: 'facebook', name: 'Facebook', isExternal: false, isWeb3: false },
+            { identifier: 'instagram', name: 'Instagram', isExternal: false, isWeb3: false },
+            { identifier: 'tiktok', name: 'TikTok', isExternal: false, isWeb3: false },
+            { identifier: 'youtube', name: 'YouTube', isExternal: false, isWeb3: false },
+            { identifier: 'reddit', name: 'Reddit', isExternal: false, isWeb3: false },
+            { identifier: 'linkedin', name: 'LinkedIn', isExternal: false, isWeb3: false },
+            { identifier: 'pinterest', name: 'Pinterest', isExternal: false, isWeb3: false },
+            { identifier: 'threads', name: 'Threads', isExternal: false, isWeb3: false },
+            { identifier: 'dribbble', name: 'Dribbble', isExternal: false, isWeb3: false },
+            { identifier: 'bluesky', name: 'Bluesky', isExternal: false, isWeb3: false },
+          ],
+          article: [
+            { identifier: 'blog', name: 'Blog' },
+            { identifier: 'article', name: 'Article' },
+          ]
         }), { status: 200, headers: { 'Content-Type': 'application/json' } });
       }
       if (url === '/notifications') {
