@@ -105,6 +105,16 @@ export async function middleware(request: NextRequest) {
     );
   }
 
+  // Skip auth page on localhost/Railway and redirect to dashboard
+  if (isLocalhost && nextUrl.pathname.startsWith('/auth')) {
+    return NextResponse.redirect(
+      new URL(
+        !!process.env.IS_GENERAL ? '/launches' : `/analytics`,
+        nextUrl.href
+      )
+    );
+  }
+
   // If the url is /auth and the cookie exists, redirect to /
   if (nextUrl.pathname.startsWith('/auth') && authCookie) {
     return NextResponse.redirect(new URL(`/${url}`, nextUrl.href));
