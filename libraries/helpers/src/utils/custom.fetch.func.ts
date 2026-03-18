@@ -90,12 +90,20 @@ export const customFetch = (
         return new Response(JSON.stringify([]), { status: 200, headers: { 'Content-Type': 'application/json' } });
       }
 
+      // Mock CopilotKit endpoints
+      if (url.includes('/api/copilot')) {
+        return new Response(JSON.stringify({}), { status: 200, headers: { 'Content-Type': 'application/json' } });
+      }
+
       // Catch-all for GET requests - return empty array/object to prevent 401 errors
       if (options.method === undefined || options.method === 'GET') {
         // Try to determine if it should be array or object based on common patterns
         const isArrayEndpoint = url.includes('list') || url.includes('get') || url.endsWith('s') || url.includes('/');
         return new Response(JSON.stringify(isArrayEndpoint ? [] : {}), { status: 200, headers: { 'Content-Type': 'application/json' } });
       }
+
+      // For POST/PUT/DELETE requests on localhost, return success
+      return new Response(JSON.stringify({ success: true }), { status: 200, headers: { 'Content-Type': 'application/json' } });
     }
 
     const loggedAuth =
