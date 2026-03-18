@@ -14,7 +14,7 @@ acceptLanguage.languages(languages);
 // This function can be marked `async` if using `await` inside
 export async function middleware(request: NextRequest) {
   const nextUrl = request.nextUrl;
-  const isLocalhost = request.headers.get('host')?.includes('localhost');
+  const isLocalhost = request.headers.get('host')?.includes('localhost') || request.headers.get('host')?.includes('railway.app');
 
   // Return mock user for localhost /user/self requests
   if (isLocalhost && request.nextUrl.pathname === '/user/self') {

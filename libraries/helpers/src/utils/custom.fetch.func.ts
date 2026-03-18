@@ -14,8 +14,8 @@ export const customFetch = (
   secured: boolean = true
 ) => {
   return async function newFetch(url: string, options: RequestInit = {}) {
-    // Mock localhost development environment
-    const isLocalhost = typeof window !== 'undefined' && window.location.hostname === 'localhost';
+    // Mock development environment (localhost and Railway production)
+    const isLocalhost = typeof window !== 'undefined' && (window.location.hostname === 'localhost' || window.location.hostname.includes('railway.app'));
 
     if (isLocalhost) {
       // Mock various API endpoints for localhost development
