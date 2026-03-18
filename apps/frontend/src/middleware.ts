@@ -14,26 +14,11 @@ acceptLanguage.languages(languages);
 // This function can be marked `async` if using `await` inside
 export async function middleware(request: NextRequest) {
   const nextUrl = request.nextUrl;
-  const isLocalhost = request.headers.get('host')?.includes('localhost') || request.headers.get('host')?.includes('railway.app');
-
-  // Return mock user for localhost /user/self requests
-  if (isLocalhost && request.nextUrl.pathname === '/user/self') {
-    const mockUser = {
-      id: 'local-dev-user',
-      email: 'dev@localhost',
-      name: 'Dev User',
-      admin: false,
-      tier: 'PRO',
-      orgId: 'local-org',
-    };
-    return NextResponse.json(mockUser);
-  }
 
   const authCookie =
     request.cookies.get('auth') ||
     request.headers.get('auth') ||
-    nextUrl.searchParams.get('loggedAuth') ||
-    (isLocalhost ? 'localhost-dev' : null);
+    nextUrl.searchParams.get('loggedAuth');
   const lng = request.cookies.has(cookieName)
     ? acceptLanguage.get(request.cookies.get(cookieName).value)
     : acceptLanguage.get(
@@ -105,15 +90,6 @@ export async function middleware(request: NextRequest) {
     );
   }
 
-  // Skip auth page on localhost/Railway and redirect to dashboard
-  if (isLocalhost && nextUrl.pathname.startsWith('/auth')) {
-    return NextResponse.redirect(
-      new URL(
-        !!process.env.IS_GENERAL ? '/launches' : `/analytics`,
-        nextUrl.href
-      )
-    );
-  }
 
   // If the url is /auth and the cookie exists, redirect to /
   if (nextUrl.pathname.startsWith('/auth') && authCookie) {
@@ -135,18 +111,6 @@ export async function middleware(request: NextRequest) {
         expires: new Date(Date.now() + 15 * 60 * 1000),
       });
       return redirect;
-    }
-    return topResponse;
-  }
-  // Skip additional auth checks on localhost
-  if (isLocalhost) {
-    if (nextUrl.pathname === '/') {
-      return NextResponse.redirect(
-        new URL(
-          !!process.env.IS_GENERAL ? '/launches' : `/analytics`,
-          nextUrl.href
-        )
-      );
     }
     return topResponse;
   }
