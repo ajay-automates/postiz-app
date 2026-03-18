@@ -57,6 +57,45 @@ export const customFetch = (
       if (url.includes('/launches')) {
         return new Response(JSON.stringify([]), { status: 200, headers: { 'Content-Type': 'application/json' } });
       }
+
+      // Mock additional endpoints for full app navigation
+      if (url.includes('/channels')) {
+        return new Response(JSON.stringify([]), { status: 200, headers: { 'Content-Type': 'application/json' } });
+      }
+      if (url.includes('/analytics')) {
+        return new Response(JSON.stringify([]), { status: 200, headers: { 'Content-Type': 'application/json' } });
+      }
+      if (url.includes('/settings')) {
+        return new Response(JSON.stringify({}), { status: 200, headers: { 'Content-Type': 'application/json' } });
+      }
+      if (url.includes('/dashboard')) {
+        return new Response(JSON.stringify({}), { status: 200, headers: { 'Content-Type': 'application/json' } });
+      }
+      if (url.includes('/profile')) {
+        return new Response(JSON.stringify({}), { status: 200, headers: { 'Content-Type': 'application/json' } });
+      }
+      if (url.includes('/workspace')) {
+        return new Response(JSON.stringify({}), { status: 200, headers: { 'Content-Type': 'application/json' } });
+      }
+      if (url.includes('/team')) {
+        return new Response(JSON.stringify([]), { status: 200, headers: { 'Content-Type': 'application/json' } });
+      }
+      if (url.includes('/members')) {
+        return new Response(JSON.stringify([]), { status: 200, headers: { 'Content-Type': 'application/json' } });
+      }
+      if (url.includes('/calendar')) {
+        return new Response(JSON.stringify([]), { status: 200, headers: { 'Content-Type': 'application/json' } });
+      }
+      if (url.includes('/media')) {
+        return new Response(JSON.stringify([]), { status: 200, headers: { 'Content-Type': 'application/json' } });
+      }
+
+      // Catch-all for GET requests - return empty array/object to prevent 401 errors
+      if (options.method === undefined || options.method === 'GET') {
+        // Try to determine if it should be array or object based on common patterns
+        const isArrayEndpoint = url.includes('list') || url.includes('get') || url.endsWith('s') || url.includes('/');
+        return new Response(JSON.stringify(isArrayEndpoint ? [] : {}), { status: 200, headers: { 'Content-Type': 'application/json' } });
+      }
     }
 
     const loggedAuth =
