@@ -1,0 +1,1434 @@
+[    9777ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/user/organizations:0
+[    9795ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/notifications:0
+[    9825ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/integrations/list:0
+[    9832ms] [ERROR] Warning: Invalid DOM property `%s`. Did you mean `%s`?%s clip-path clipPath 
+    at g
+    at svg
+    at button
+    at div
+    at AddProviderButton (webpack-internal:///(app-pages-browser)/./src/components/launches/add.provider.component.tsx:84:13)
+    at div
+    at div
+    at div
+    at CalendarWeekProvider (webpack-internal:///(app-pages-browser)/./src/components/launches/calendar.context.tsx:91:11)
+    at DndProvider (webpack-internal:///(app-pages-browser)/../../node_modules/react-dnd/dist/core/DndProvider.js:43:11)
+    at DNDProvider (webpack-internal:///(app-pages-browser)/./src/components/launches/helpers/dnd.provider.tsx:12:11)
+    at LaunchesComponent (webpack-internal:///(app-pages-browser)/./src/components/launches/launches.component.tsx:463:96)
+    at Index (Server)
+    at InnerLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:243:11)
+    at RedirectErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:74:9)
+    at RedirectBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:82:11)
+    at NotFoundBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at LoadingBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:349:11)
+    at ErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/error-boundary.js:160:11)
+    at InnerScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:153:9)
+    at ScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:228:11)
+    at RenderFromTemplateContext (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/render-from-template-context.js:16:44)
+    at OuterLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:370:11)
+    at InnerLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:243:11)
+    at RedirectErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:74:9)
+    at RedirectBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:82:11)
+    at NotFoundBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at LoadingBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:349:11)
+    at ErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/error-boundary.js:160:11)
+    at InnerScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:153:9)
+    at ScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:228:11)
+    at RenderFromTemplateContext (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/render-from-template-context.js:16:44)
+    at OuterLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:370:11)
+    at div
+    at div
+    at div
+    at div
+    at CheckPayment (webpack-internal:///(app-pages-browser)/./src/components/layout/check.payment.tsx:24:16)
+    at div
+    at div
+    at ModalManager (webpack-internal:///(app-pages-browser)/./src/components/layout/new-modal.tsx:335:11)
+    at MantineWrapper (webpack-internal:///(app-pages-browser)/../../libraries/react-shared-libraries/src/helpers/mantine.wrapper.tsx:17:19)
+    at CopilotMessages (webpack-internal:///(app-pages-browser)/../../node_modules/@copilotkit/react-core/dist/chunk-C6IANC2R.mjs:44:28)
+    at MessagesTapProvider (webpack-internal:///(app-pages-browser)/../../node_modules/@copilotkit/react-core/dist/chunk-C6IANC2R.mjs:34:32)
+    at CopilotKitInternal (webpack-internal:///(app-pages-browser)/../../node_modules/@copilotkit/react-core/dist/chunk-CI4KD357.mjs:194:26)
+    at CopilotErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/@copilotkit/react-core/dist/chunk-N4VN2B5S.mjs:23:5)
+    at ToastProvider (webpack-internal:///(app-pages-browser)/../../node_modules/@copilotkit/react-core/dist/chunk-EFL5OBKN.mjs:69:3)
+    at CopilotKit (webpack-internal:///(app-pages-browser)/../../node_modules/@copilotkit/react-core/dist/chunk-CI4KD357.mjs:187:18)
+    at ContextWrapper (webpack-internal:///(app-pages-browser)/./src/components/layout/user.context.tsx:17:11)
+    at LayoutComponent (webpack-internal:///(app-pages-browser)/./src/components/new-layout/layout.component.tsx:81:11)
+    at Layout (Server)
+    at InnerLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:243:11)
+    at RedirectErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:74:9)
+    at RedirectBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:82:11)
+    at NotFoundErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:76:9)
+    at NotFoundBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at LoadingBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:349:11)
+    at ErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/error-boundary.js:160:11)
+    at InnerScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:153:9)
+    at ScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:228:11)
+    at RenderFromTemplateContext (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/render-from-template-context.js:16:44)
+    at OuterLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:370:11)
+    at FetchWrapperComponent (webpack-internal:///(app-pages-browser)/../../libraries/helpers/src/utils/custom.fetch.tsx:26:13)
+    at LayoutContextInner (webpack-internal:///(app-pages-browser)/./src/components/layout/layout.context.tsx:45:120)
+    at LayoutContext
+    at PHProvider (webpack-internal:///(app-pages-browser)/../../libraries/react-shared-libraries/src/helpers/posthog.tsx:16:11)
+    at SentryComponent (webpack-internal:///(app-pages-browser)/./src/components/layout/sentry.component.tsx:16:11)
+    at VariableContextComponent (webpack-internal:///(app-pages-browser)/../../libraries/react-shared-libraries/src/helpers/variable.context.tsx:41:13)
+    at body
+    at html
+    at AppLayout (Server)
+    at InnerLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:243:11)
+    at RedirectErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:74:9)
+    at RedirectBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:82:11)
+    at NotFoundErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:76:9)
+    at NotFoundBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at LoadingBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:349:11)
+    at ErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/error-boundary.js:160:11)
+    at InnerScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:153:9)
+    at ScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:228:11)
+    at RenderFromTemplateContext (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/render-from-template-context.js:16:44)
+    at OuterLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:370:11)
+    at RedirectErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:74:9)
+    at RedirectBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:82:11)
+    at NotFoundErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:76:9)
+    at NotFoundBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at DevRootNotFoundBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/dev-root-not-found-boundary.js:33:11)
+    at ReactDevOverlay (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/react-dev-overlay/app/ReactDevOverlay.js:87:9)
+    at HotReload (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:321:11)
+    at Router (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/app-router.js:207:11)
+    at ErrorBoundaryHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/error-boundary.js:113:9)
+    at ErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/error-boundary.js:160:11)
+    at AppRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/app-router.js:585:13)
+    at ServerRoot (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/app-index.js:112:27)
+    at Root (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/app-index.js:117:11) @ webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/app-index.js:32
+[    9890ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/copilot/chat:0
+[    9965ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/posts?display=week&customer=&startDate=2026-03-16T04%3A00%3A00%2B00%3A00&endDate=2026-03-23T03%3A59%3A59%2B00%3A00:0
+[    9985ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/sets:0
+[   10002ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/signatures/default:0
+[   15949ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/user/organizations:0
+[   15954ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/notifications:0
+[   15970ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/copilot/chat:0
+[   16683ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/integrations/list:0
+[   16697ms] [ERROR] Warning: Invalid DOM property `%s`. Did you mean `%s`?%s clip-path clipPath 
+    at g
+    at svg
+    at button
+    at div
+    at AddProviderButton (webpack-internal:///(app-pages-browser)/./src/components/launches/add.provider.component.tsx:84:13)
+    at div
+    at div
+    at div
+    at CalendarWeekProvider (webpack-internal:///(app-pages-browser)/./src/components/launches/calendar.context.tsx:91:11)
+    at DndProvider (webpack-internal:///(app-pages-browser)/../../node_modules/react-dnd/dist/core/DndProvider.js:43:11)
+    at DNDProvider (webpack-internal:///(app-pages-browser)/./src/components/launches/helpers/dnd.provider.tsx:12:11)
+    at LaunchesComponent (webpack-internal:///(app-pages-browser)/./src/components/launches/launches.component.tsx:463:96)
+    at Index (Server)
+    at InnerLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:243:11)
+    at RedirectErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:74:9)
+    at RedirectBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:82:11)
+    at NotFoundBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at LoadingBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:349:11)
+    at ErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/error-boundary.js:160:11)
+    at InnerScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:153:9)
+    at ScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:228:11)
+    at RenderFromTemplateContext (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/render-from-template-context.js:16:44)
+    at OuterLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:370:11)
+    at InnerLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:243:11)
+    at RedirectErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:74:9)
+    at RedirectBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:82:11)
+    at NotFoundBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at LoadingBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:349:11)
+    at ErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/error-boundary.js:160:11)
+    at InnerScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:153:9)
+    at ScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:228:11)
+    at RenderFromTemplateContext (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/render-from-template-context.js:16:44)
+    at OuterLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:370:11)
+    at div
+    at div
+    at div
+    at div
+    at CheckPayment (webpack-internal:///(app-pages-browser)/./src/components/layout/check.payment.tsx:24:16)
+    at div
+    at div
+    at ModalManager (webpack-internal:///(app-pages-browser)/./src/components/layout/new-modal.tsx:335:11)
+    at MantineWrapper (webpack-internal:///(app-pages-browser)/../../libraries/react-shared-libraries/src/helpers/mantine.wrapper.tsx:17:19)
+    at CopilotMessages (webpack-internal:///(app-pages-browser)/../../node_modules/@copilotkit/react-core/dist/chunk-C6IANC2R.mjs:44:28)
+    at MessagesTapProvider (webpack-internal:///(app-pages-browser)/../../node_modules/@copilotkit/react-core/dist/chunk-C6IANC2R.mjs:34:32)
+    at CopilotKitInternal (webpack-internal:///(app-pages-browser)/../../node_modules/@copilotkit/react-core/dist/chunk-CI4KD357.mjs:194:26)
+    at CopilotErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/@copilotkit/react-core/dist/chunk-N4VN2B5S.mjs:23:5)
+    at ToastProvider (webpack-internal:///(app-pages-browser)/../../node_modules/@copilotkit/react-core/dist/chunk-EFL5OBKN.mjs:69:3)
+    at CopilotKit (webpack-internal:///(app-pages-browser)/../../node_modules/@copilotkit/react-core/dist/chunk-CI4KD357.mjs:187:18)
+    at ContextWrapper (webpack-internal:///(app-pages-browser)/./src/components/layout/user.context.tsx:17:11)
+    at LayoutComponent (webpack-internal:///(app-pages-browser)/./src/components/new-layout/layout.component.tsx:81:11)
+    at Layout (Server)
+    at InnerLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:243:11)
+    at RedirectErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:74:9)
+    at RedirectBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:82:11)
+    at NotFoundErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:76:9)
+    at NotFoundBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at LoadingBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:349:11)
+    at ErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/error-boundary.js:160:11)
+    at InnerScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:153:9)
+    at ScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:228:11)
+    at RenderFromTemplateContext (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/render-from-template-context.js:16:44)
+    at OuterLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:370:11)
+    at FetchWrapperComponent (webpack-internal:///(app-pages-browser)/../../libraries/helpers/src/utils/custom.fetch.tsx:26:13)
+    at LayoutContextInner (webpack-internal:///(app-pages-browser)/./src/components/layout/layout.context.tsx:45:120)
+    at LayoutContext
+    at PHProvider (webpack-internal:///(app-pages-browser)/../../libraries/react-shared-libraries/src/helpers/posthog.tsx:16:11)
+    at SentryComponent (webpack-internal:///(app-pages-browser)/./src/components/layout/sentry.component.tsx:16:11)
+    at VariableContextComponent (webpack-internal:///(app-pages-browser)/../../libraries/react-shared-libraries/src/helpers/variable.context.tsx:41:13)
+    at body
+    at html
+    at AppLayout (Server)
+    at InnerLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:243:11)
+    at RedirectErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:74:9)
+    at RedirectBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:82:11)
+    at NotFoundErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:76:9)
+    at NotFoundBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at LoadingBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:349:11)
+    at ErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/error-boundary.js:160:11)
+    at InnerScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:153:9)
+    at ScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:228:11)
+    at RenderFromTemplateContext (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/render-from-template-context.js:16:44)
+    at OuterLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:370:11)
+    at RedirectErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:74:9)
+    at RedirectBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:82:11)
+    at NotFoundErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:76:9)
+    at NotFoundBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at DevRootNotFoundBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/dev-root-not-found-boundary.js:33:11)
+    at ReactDevOverlay (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/react-dev-overlay/app/ReactDevOverlay.js:87:9)
+    at HotReload (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:321:11)
+    at Router (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/app-router.js:207:11)
+    at ErrorBoundaryHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/error-boundary.js:113:9)
+    at ErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/error-boundary.js:160:11)
+    at AppRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/app-router.js:585:13)
+    at ServerRoot (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/app-index.js:112:27)
+    at Root (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/app-index.js:117:11) @ webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/app-index.js:32
+[   16857ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/posts?display=week&customer=&startDate=2026-03-16T04%3A00%3A00%2B00%3A00&endDate=2026-03-23T03%3A59%3A59%2B00%3A00:0
+[   16897ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/sets:0
+[   16898ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/signatures/default:0
+[   24546ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/user/organizations:0
+[   24553ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/notifications:0
+[   24556ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/copilot/chat:0
+[   27679ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/user/organizations:0
+[   27692ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/copilot/chat:0
+[   27695ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/notifications:0
+[   29603ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/notifications:0
+[   29609ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/user/organizations:0
+[   29621ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/copilot/chat:0
+[   32889ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/user/organizations:0
+[   32896ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/copilot/chat:0
+[   32902ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/notifications:0
+[   36960ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/copilot/chat:0
+[   36962ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/user/organizations:0
+[   37012ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/notifications:0
+[   40482ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/user/organizations:0
+[   40484ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/copilot/chat:0
+[   40489ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/notifications:0
+[   40682ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/integrations/list:0
+[   40698ms] [ERROR] Warning: Invalid DOM property `%s`. Did you mean `%s`?%s clip-path clipPath 
+    at g
+    at svg
+    at button
+    at div
+    at AddProviderButton (webpack-internal:///(app-pages-browser)/./src/components/launches/add.provider.component.tsx:84:13)
+    at div
+    at div
+    at div
+    at CalendarWeekProvider (webpack-internal:///(app-pages-browser)/./src/components/launches/calendar.context.tsx:91:11)
+    at DndProvider (webpack-internal:///(app-pages-browser)/../../node_modules/react-dnd/dist/core/DndProvider.js:43:11)
+    at DNDProvider (webpack-internal:///(app-pages-browser)/./src/components/launches/helpers/dnd.provider.tsx:12:11)
+    at LaunchesComponent (webpack-internal:///(app-pages-browser)/./src/components/launches/launches.component.tsx:463:96)
+    at Index (Server)
+    at InnerLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:243:11)
+    at RedirectErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:74:9)
+    at RedirectBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:82:11)
+    at NotFoundBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at LoadingBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:349:11)
+    at ErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/error-boundary.js:160:11)
+    at InnerScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:153:9)
+    at ScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:228:11)
+    at RenderFromTemplateContext (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/render-from-template-context.js:16:44)
+    at OuterLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:370:11)
+    at InnerLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:243:11)
+    at RedirectErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:74:9)
+    at RedirectBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:82:11)
+    at NotFoundBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at LoadingBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:349:11)
+    at ErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/error-boundary.js:160:11)
+    at InnerScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:153:9)
+    at ScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:228:11)
+    at RenderFromTemplateContext (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/render-from-template-context.js:16:44)
+    at OuterLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:370:11)
+    at div
+    at div
+    at div
+    at div
+    at CheckPayment (webpack-internal:///(app-pages-browser)/./src/components/layout/check.payment.tsx:24:16)
+    at div
+    at div
+    at ModalManager (webpack-internal:///(app-pages-browser)/./src/components/layout/new-modal.tsx:335:11)
+    at MantineWrapper (webpack-internal:///(app-pages-browser)/../../libraries/react-shared-libraries/src/helpers/mantine.wrapper.tsx:17:19)
+    at CopilotMessages (webpack-internal:///(app-pages-browser)/../../node_modules/@copilotkit/react-core/dist/chunk-C6IANC2R.mjs:44:28)
+    at MessagesTapProvider (webpack-internal:///(app-pages-browser)/../../node_modules/@copilotkit/react-core/dist/chunk-C6IANC2R.mjs:34:32)
+    at CopilotKitInternal (webpack-internal:///(app-pages-browser)/../../node_modules/@copilotkit/react-core/dist/chunk-CI4KD357.mjs:194:26)
+    at CopilotErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/@copilotkit/react-core/dist/chunk-N4VN2B5S.mjs:23:5)
+    at ToastProvider (webpack-internal:///(app-pages-browser)/../../node_modules/@copilotkit/react-core/dist/chunk-EFL5OBKN.mjs:69:3)
+    at CopilotKit (webpack-internal:///(app-pages-browser)/../../node_modules/@copilotkit/react-core/dist/chunk-CI4KD357.mjs:187:18)
+    at ContextWrapper (webpack-internal:///(app-pages-browser)/./src/components/layout/user.context.tsx:17:11)
+    at LayoutComponent (webpack-internal:///(app-pages-browser)/./src/components/new-layout/layout.component.tsx:81:11)
+    at Layout (Server)
+    at InnerLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:243:11)
+    at RedirectErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:74:9)
+    at RedirectBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:82:11)
+    at NotFoundErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:76:9)
+    at NotFoundBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at LoadingBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:349:11)
+    at ErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/error-boundary.js:160:11)
+    at InnerScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:153:9)
+    at ScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:228:11)
+    at RenderFromTemplateContext (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/render-from-template-context.js:16:44)
+    at OuterLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:370:11)
+    at FetchWrapperComponent (webpack-internal:///(app-pages-browser)/../../libraries/helpers/src/utils/custom.fetch.tsx:26:13)
+    at LayoutContextInner (webpack-internal:///(app-pages-browser)/./src/components/layout/layout.context.tsx:45:120)
+    at LayoutContext
+    at PHProvider (webpack-internal:///(app-pages-browser)/../../libraries/react-shared-libraries/src/helpers/posthog.tsx:16:11)
+    at SentryComponent (webpack-internal:///(app-pages-browser)/./src/components/layout/sentry.component.tsx:16:11)
+    at VariableContextComponent (webpack-internal:///(app-pages-browser)/../../libraries/react-shared-libraries/src/helpers/variable.context.tsx:41:13)
+    at body
+    at html
+    at AppLayout (Server)
+    at InnerLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:243:11)
+    at RedirectErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:74:9)
+    at RedirectBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:82:11)
+    at NotFoundErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:76:9)
+    at NotFoundBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at LoadingBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:349:11)
+    at ErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/error-boundary.js:160:11)
+    at InnerScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:153:9)
+    at ScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:228:11)
+    at RenderFromTemplateContext (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/render-from-template-context.js:16:44)
+    at OuterLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:370:11)
+    at RedirectErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:74:9)
+    at RedirectBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:82:11)
+    at NotFoundErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:76:9)
+    at NotFoundBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at DevRootNotFoundBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/dev-root-not-found-boundary.js:33:11)
+    at ReactDevOverlay (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/react-dev-overlay/app/ReactDevOverlay.js:87:9)
+    at HotReload (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:321:11)
+    at Router (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/app-router.js:207:11)
+    at ErrorBoundaryHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/error-boundary.js:113:9)
+    at ErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/error-boundary.js:160:11)
+    at AppRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/app-router.js:585:13)
+    at ServerRoot (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/app-index.js:112:27)
+    at Root (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/app-index.js:117:11) @ webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/app-index.js:32
+[   40765ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/posts?display=week&customer=&startDate=2026-03-16T04%3A00%3A00%2B00%3A00&endDate=2026-03-23T03%3A59%3A59%2B00%3A00:0
+[   40785ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/sets:0
+[   40786ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/signatures/default:0
+[   44060ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/user/organizations:0
+[   44068ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/notifications:0
+[   44078ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/copilot/chat:0
+[   46865ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/user/organizations:0
+[   46869ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/copilot/chat:0
+[   46921ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/notifications:0
+[   50133ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/notifications:0
+[   50134ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/user/organizations:0
+[   50136ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/copilot/chat:0
+[   57916ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/user/organizations:0
+[   57919ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/notifications:0
+[   57919ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/integrations/list:0
+[   57927ms] [ERROR] Warning: Invalid DOM property `%s`. Did you mean `%s`?%s clip-path clipPath 
+    at g
+    at svg
+    at button
+    at div
+    at AddProviderButton (webpack-internal:///(app-pages-browser)/./src/components/launches/add.provider.component.tsx:84:13)
+    at div
+    at div
+    at div
+    at CalendarWeekProvider (webpack-internal:///(app-pages-browser)/./src/components/launches/calendar.context.tsx:91:11)
+    at DndProvider (webpack-internal:///(app-pages-browser)/../../node_modules/react-dnd/dist/core/DndProvider.js:43:11)
+    at DNDProvider (webpack-internal:///(app-pages-browser)/./src/components/launches/helpers/dnd.provider.tsx:12:11)
+    at LaunchesComponent (webpack-internal:///(app-pages-browser)/./src/components/launches/launches.component.tsx:463:96)
+    at Index (Server)
+    at InnerLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:243:11)
+    at RedirectErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:74:9)
+    at RedirectBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:82:11)
+    at NotFoundBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at LoadingBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:349:11)
+    at ErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/error-boundary.js:160:11)
+    at InnerScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:153:9)
+    at ScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:228:11)
+    at RenderFromTemplateContext (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/render-from-template-context.js:16:44)
+    at OuterLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:370:11)
+    at InnerLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:243:11)
+    at RedirectErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:74:9)
+    at RedirectBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:82:11)
+    at NotFoundBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at LoadingBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:349:11)
+    at ErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/error-boundary.js:160:11)
+    at InnerScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:153:9)
+    at ScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:228:11)
+    at RenderFromTemplateContext (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/render-from-template-context.js:16:44)
+    at OuterLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:370:11)
+    at div
+    at div
+    at div
+    at div
+    at CheckPayment (webpack-internal:///(app-pages-browser)/./src/components/layout/check.payment.tsx:24:16)
+    at div
+    at div
+    at ModalManager (webpack-internal:///(app-pages-browser)/./src/components/layout/new-modal.tsx:335:11)
+    at MantineWrapper (webpack-internal:///(app-pages-browser)/../../libraries/react-shared-libraries/src/helpers/mantine.wrapper.tsx:17:19)
+    at CopilotMessages (webpack-internal:///(app-pages-browser)/../../node_modules/@copilotkit/react-core/dist/chunk-C6IANC2R.mjs:44:28)
+    at MessagesTapProvider (webpack-internal:///(app-pages-browser)/../../node_modules/@copilotkit/react-core/dist/chunk-C6IANC2R.mjs:34:32)
+    at CopilotKitInternal (webpack-internal:///(app-pages-browser)/../../node_modules/@copilotkit/react-core/dist/chunk-CI4KD357.mjs:194:26)
+    at CopilotErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/@copilotkit/react-core/dist/chunk-N4VN2B5S.mjs:23:5)
+    at ToastProvider (webpack-internal:///(app-pages-browser)/../../node_modules/@copilotkit/react-core/dist/chunk-EFL5OBKN.mjs:69:3)
+    at CopilotKit (webpack-internal:///(app-pages-browser)/../../node_modules/@copilotkit/react-core/dist/chunk-CI4KD357.mjs:187:18)
+    at ContextWrapper (webpack-internal:///(app-pages-browser)/./src/components/layout/user.context.tsx:17:11)
+    at LayoutComponent (webpack-internal:///(app-pages-browser)/./src/components/new-layout/layout.component.tsx:81:11)
+    at Layout (Server)
+    at InnerLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:243:11)
+    at RedirectErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:74:9)
+    at RedirectBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:82:11)
+    at NotFoundErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:76:9)
+    at NotFoundBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at LoadingBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:349:11)
+    at ErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/error-boundary.js:160:11)
+    at InnerScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:153:9)
+    at ScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:228:11)
+    at RenderFromTemplateContext (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/render-from-template-context.js:16:44)
+    at OuterLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:370:11)
+    at FetchWrapperComponent (webpack-internal:///(app-pages-browser)/../../libraries/helpers/src/utils/custom.fetch.tsx:26:13)
+    at LayoutContextInner (webpack-internal:///(app-pages-browser)/./src/components/layout/layout.context.tsx:45:120)
+    at LayoutContext
+    at PHProvider (webpack-internal:///(app-pages-browser)/../../libraries/react-shared-libraries/src/helpers/posthog.tsx:16:11)
+    at SentryComponent (webpack-internal:///(app-pages-browser)/./src/components/layout/sentry.component.tsx:16:11)
+    at VariableContextComponent (webpack-internal:///(app-pages-browser)/../../libraries/react-shared-libraries/src/helpers/variable.context.tsx:41:13)
+    at body
+    at html
+    at AppLayout (Server)
+    at InnerLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:243:11)
+    at RedirectErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:74:9)
+    at RedirectBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:82:11)
+    at NotFoundErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:76:9)
+    at NotFoundBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at LoadingBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:349:11)
+    at ErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/error-boundary.js:160:11)
+    at InnerScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:153:9)
+    at ScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:228:11)
+    at RenderFromTemplateContext (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/render-from-template-context.js:16:44)
+    at OuterLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:370:11)
+    at RedirectErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:74:9)
+    at RedirectBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:82:11)
+    at NotFoundErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:76:9)
+    at NotFoundBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at DevRootNotFoundBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/dev-root-not-found-boundary.js:33:11)
+    at ReactDevOverlay (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/react-dev-overlay/app/ReactDevOverlay.js:87:9)
+    at HotReload (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:321:11)
+    at Router (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/app-router.js:207:11)
+    at ErrorBoundaryHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/error-boundary.js:113:9)
+    at ErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/error-boundary.js:160:11)
+    at AppRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/app-router.js:585:13)
+    at ServerRoot (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/app-index.js:112:27)
+    at Root (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/app-index.js:117:11) @ webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/app-index.js:32
+[   57954ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/copilot/chat:0
+[   58024ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/posts?display=week&customer=&startDate=2026-03-16T04%3A00%3A00%2B00%3A00&endDate=2026-03-23T03%3A59%3A59%2B00%3A00:0
+[   58047ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/sets:0
+[   58047ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/signatures/default:0
+[   61589ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/copilot/chat:0
+[   61591ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/user/organizations:0
+[   61593ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/notifications:0
+[   77678ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/user/organizations:0
+[   77689ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/copilot/chat:0
+[   77700ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/notifications:0
+[   82536ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/user/organizations:0
+[   82538ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/notifications:0
+[   82544ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/copilot/chat:0
+[   88785ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/user/organizations:0
+[   88789ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/notifications:0
+[   88790ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/copilot/chat:0
+[   89383ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/integrations/list:0
+[   89405ms] [ERROR] Warning: Invalid DOM property `%s`. Did you mean `%s`?%s clip-path clipPath 
+    at g
+    at svg
+    at button
+    at div
+    at AddProviderButton (webpack-internal:///(app-pages-browser)/./src/components/launches/add.provider.component.tsx:84:13)
+    at div
+    at div
+    at div
+    at CalendarWeekProvider (webpack-internal:///(app-pages-browser)/./src/components/launches/calendar.context.tsx:91:11)
+    at DndProvider (webpack-internal:///(app-pages-browser)/../../node_modules/react-dnd/dist/core/DndProvider.js:43:11)
+    at DNDProvider (webpack-internal:///(app-pages-browser)/./src/components/launches/helpers/dnd.provider.tsx:12:11)
+    at LaunchesComponent (webpack-internal:///(app-pages-browser)/./src/components/launches/launches.component.tsx:463:96)
+    at Index (Server)
+    at InnerLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:243:11)
+    at RedirectErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:74:9)
+    at RedirectBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:82:11)
+    at NotFoundBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at LoadingBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:349:11)
+    at ErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/error-boundary.js:160:11)
+    at InnerScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:153:9)
+    at ScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:228:11)
+    at RenderFromTemplateContext (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/render-from-template-context.js:16:44)
+    at OuterLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:370:11)
+    at InnerLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:243:11)
+    at RedirectErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:74:9)
+    at RedirectBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:82:11)
+    at NotFoundBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at LoadingBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:349:11)
+    at ErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/error-boundary.js:160:11)
+    at InnerScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:153:9)
+    at ScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:228:11)
+    at RenderFromTemplateContext (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/render-from-template-context.js:16:44)
+    at OuterLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:370:11)
+    at div
+    at div
+    at div
+    at div
+    at CheckPayment (webpack-internal:///(app-pages-browser)/./src/components/layout/check.payment.tsx:24:16)
+    at div
+    at div
+    at ModalManager (webpack-internal:///(app-pages-browser)/./src/components/layout/new-modal.tsx:335:11)
+    at MantineWrapper (webpack-internal:///(app-pages-browser)/../../libraries/react-shared-libraries/src/helpers/mantine.wrapper.tsx:17:19)
+    at CopilotMessages (webpack-internal:///(app-pages-browser)/../../node_modules/@copilotkit/react-core/dist/chunk-C6IANC2R.mjs:44:28)
+    at MessagesTapProvider (webpack-internal:///(app-pages-browser)/../../node_modules/@copilotkit/react-core/dist/chunk-C6IANC2R.mjs:34:32)
+    at CopilotKitInternal (webpack-internal:///(app-pages-browser)/../../node_modules/@copilotkit/react-core/dist/chunk-CI4KD357.mjs:194:26)
+    at CopilotErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/@copilotkit/react-core/dist/chunk-N4VN2B5S.mjs:23:5)
+    at ToastProvider (webpack-internal:///(app-pages-browser)/../../node_modules/@copilotkit/react-core/dist/chunk-EFL5OBKN.mjs:69:3)
+    at CopilotKit (webpack-internal:///(app-pages-browser)/../../node_modules/@copilotkit/react-core/dist/chunk-CI4KD357.mjs:187:18)
+    at ContextWrapper (webpack-internal:///(app-pages-browser)/./src/components/layout/user.context.tsx:17:11)
+    at LayoutComponent (webpack-internal:///(app-pages-browser)/./src/components/new-layout/layout.component.tsx:81:11)
+    at Layout (Server)
+    at InnerLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:243:11)
+    at RedirectErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:74:9)
+    at RedirectBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:82:11)
+    at NotFoundErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:76:9)
+    at NotFoundBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at LoadingBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:349:11)
+    at ErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/error-boundary.js:160:11)
+    at InnerScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:153:9)
+    at ScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:228:11)
+    at RenderFromTemplateContext (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/render-from-template-context.js:16:44)
+    at OuterLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:370:11)
+    at FetchWrapperComponent (webpack-internal:///(app-pages-browser)/../../libraries/helpers/src/utils/custom.fetch.tsx:26:13)
+    at LayoutContextInner (webpack-internal:///(app-pages-browser)/./src/components/layout/layout.context.tsx:45:120)
+    at LayoutContext
+    at PHProvider (webpack-internal:///(app-pages-browser)/../../libraries/react-shared-libraries/src/helpers/posthog.tsx:16:11)
+    at SentryComponent (webpack-internal:///(app-pages-browser)/./src/components/layout/sentry.component.tsx:16:11)
+    at VariableContextComponent (webpack-internal:///(app-pages-browser)/../../libraries/react-shared-libraries/src/helpers/variable.context.tsx:41:13)
+    at body
+    at html
+    at AppLayout (Server)
+    at InnerLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:243:11)
+    at RedirectErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:74:9)
+    at RedirectBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:82:11)
+    at NotFoundErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:76:9)
+    at NotFoundBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at LoadingBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:349:11)
+    at ErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/error-boundary.js:160:11)
+    at InnerScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:153:9)
+    at ScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:228:11)
+    at RenderFromTemplateContext (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/render-from-template-context.js:16:44)
+    at OuterLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:370:11)
+    at RedirectErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:74:9)
+    at RedirectBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:82:11)
+    at NotFoundErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:76:9)
+    at NotFoundBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at DevRootNotFoundBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/dev-root-not-found-boundary.js:33:11)
+    at ReactDevOverlay (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/react-dev-overlay/app/ReactDevOverlay.js:87:9)
+    at HotReload (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:321:11)
+    at Router (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/app-router.js:207:11)
+    at ErrorBoundaryHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/error-boundary.js:113:9)
+    at ErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/error-boundary.js:160:11)
+    at AppRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/app-router.js:585:13)
+    at ServerRoot (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/app-index.js:112:27)
+    at Root (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/app-index.js:117:11) @ webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/app-index.js:32
+[   89466ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/posts?display=week&customer=&startDate=2026-03-16T04%3A00%3A00%2B00%3A00&endDate=2026-03-23T03%3A59%3A59%2B00%3A00:0
+[   89485ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/sets:0
+[   89499ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/signatures/default:0
+[   96126ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/user/organizations:0
+[   96133ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/integrations/list:0
+[   96146ms] [ERROR] Warning: Invalid DOM property `%s`. Did you mean `%s`?%s clip-path clipPath 
+    at g
+    at svg
+    at button
+    at div
+    at AddProviderButton (webpack-internal:///(app-pages-browser)/./src/components/launches/add.provider.component.tsx:84:13)
+    at div
+    at div
+    at div
+    at CalendarWeekProvider (webpack-internal:///(app-pages-browser)/./src/components/launches/calendar.context.tsx:91:11)
+    at DndProvider (webpack-internal:///(app-pages-browser)/../../node_modules/react-dnd/dist/core/DndProvider.js:43:11)
+    at DNDProvider (webpack-internal:///(app-pages-browser)/./src/components/launches/helpers/dnd.provider.tsx:12:11)
+    at LaunchesComponent (webpack-internal:///(app-pages-browser)/./src/components/launches/launches.component.tsx:463:96)
+    at Index (Server)
+    at InnerLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:243:11)
+    at RedirectErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:74:9)
+    at RedirectBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:82:11)
+    at NotFoundBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at LoadingBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:349:11)
+    at ErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/error-boundary.js:160:11)
+    at InnerScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:153:9)
+    at ScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:228:11)
+    at RenderFromTemplateContext (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/render-from-template-context.js:16:44)
+    at OuterLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:370:11)
+    at InnerLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:243:11)
+    at RedirectErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:74:9)
+    at RedirectBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:82:11)
+    at NotFoundBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at LoadingBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:349:11)
+    at ErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/error-boundary.js:160:11)
+    at InnerScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:153:9)
+    at ScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:228:11)
+    at RenderFromTemplateContext (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/render-from-template-context.js:16:44)
+    at OuterLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:370:11)
+    at div
+    at div
+    at div
+    at div
+    at CheckPayment (webpack-internal:///(app-pages-browser)/./src/components/layout/check.payment.tsx:24:16)
+    at div
+    at div
+    at ModalManager (webpack-internal:///(app-pages-browser)/./src/components/layout/new-modal.tsx:335:11)
+    at MantineWrapper (webpack-internal:///(app-pages-browser)/../../libraries/react-shared-libraries/src/helpers/mantine.wrapper.tsx:17:19)
+    at CopilotMessages (webpack-internal:///(app-pages-browser)/../../node_modules/@copilotkit/react-core/dist/chunk-C6IANC2R.mjs:44:28)
+    at MessagesTapProvider (webpack-internal:///(app-pages-browser)/../../node_modules/@copilotkit/react-core/dist/chunk-C6IANC2R.mjs:34:32)
+    at CopilotKitInternal (webpack-internal:///(app-pages-browser)/../../node_modules/@copilotkit/react-core/dist/chunk-CI4KD357.mjs:194:26)
+    at CopilotErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/@copilotkit/react-core/dist/chunk-N4VN2B5S.mjs:23:5)
+    at ToastProvider (webpack-internal:///(app-pages-browser)/../../node_modules/@copilotkit/react-core/dist/chunk-EFL5OBKN.mjs:69:3)
+    at CopilotKit (webpack-internal:///(app-pages-browser)/../../node_modules/@copilotkit/react-core/dist/chunk-CI4KD357.mjs:187:18)
+    at ContextWrapper (webpack-internal:///(app-pages-browser)/./src/components/layout/user.context.tsx:17:11)
+    at LayoutComponent (webpack-internal:///(app-pages-browser)/./src/components/new-layout/layout.component.tsx:81:11)
+    at Layout (Server)
+    at InnerLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:243:11)
+    at RedirectErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:74:9)
+    at RedirectBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:82:11)
+    at NotFoundErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:76:9)
+    at NotFoundBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at LoadingBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:349:11)
+    at ErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/error-boundary.js:160:11)
+    at InnerScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:153:9)
+    at ScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:228:11)
+    at RenderFromTemplateContext (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/render-from-template-context.js:16:44)
+    at OuterLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:370:11)
+    at FetchWrapperComponent (webpack-internal:///(app-pages-browser)/../../libraries/helpers/src/utils/custom.fetch.tsx:26:13)
+    at LayoutContextInner (webpack-internal:///(app-pages-browser)/./src/components/layout/layout.context.tsx:45:120)
+    at LayoutContext
+    at PHProvider (webpack-internal:///(app-pages-browser)/../../libraries/react-shared-libraries/src/helpers/posthog.tsx:16:11)
+    at SentryComponent (webpack-internal:///(app-pages-browser)/./src/components/layout/sentry.component.tsx:16:11)
+    at VariableContextComponent (webpack-internal:///(app-pages-browser)/../../libraries/react-shared-libraries/src/helpers/variable.context.tsx:41:13)
+    at body
+    at html
+    at AppLayout (Server)
+    at InnerLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:243:11)
+    at RedirectErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:74:9)
+    at RedirectBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:82:11)
+    at NotFoundErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:76:9)
+    at NotFoundBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at LoadingBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:349:11)
+    at ErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/error-boundary.js:160:11)
+    at InnerScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:153:9)
+    at ScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:228:11)
+    at RenderFromTemplateContext (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/render-from-template-context.js:16:44)
+    at OuterLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:370:11)
+    at RedirectErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:74:9)
+    at RedirectBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:82:11)
+    at NotFoundErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:76:9)
+    at NotFoundBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at DevRootNotFoundBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/dev-root-not-found-boundary.js:33:11)
+    at ReactDevOverlay (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/react-dev-overlay/app/ReactDevOverlay.js:87:9)
+    at HotReload (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:321:11)
+    at Router (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/app-router.js:207:11)
+    at ErrorBoundaryHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/error-boundary.js:113:9)
+    at ErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/error-boundary.js:160:11)
+    at AppRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/app-router.js:585:13)
+    at ServerRoot (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/app-index.js:112:27)
+    at Root (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/app-index.js:117:11) @ webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/app-index.js:32
+[   96202ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/notifications:0
+[   96312ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/sets:0
+[   96314ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/posts?display=week&customer=&startDate=2026-03-16T04%3A00%3A00%2B00%3A00&endDate=2026-03-23T03%3A59%3A59%2B00%3A00:0
+[   96341ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/copilot/chat:0
+[   96342ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/signatures/default:0
+[  100102ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/user/organizations:0
+[  100104ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/copilot/chat:0
+[  100104ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/notifications:0
+[  103763ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/user/organizations:0
+[  103826ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/notifications:0
+[  103848ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/copilot/chat:0
+[  107707ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/notifications:0
+[  107708ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/user/organizations:0
+[  107741ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/copilot/chat:0
+[  111156ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/user/organizations:0
+[  111159ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/notifications:0
+[  111160ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/copilot/chat:0
+[  113629ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/user/organizations:0
+[  113631ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/copilot/chat:0
+[  113632ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/notifications:0
+[  113722ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/integrations/list:0
+[  113734ms] [ERROR] Warning: Invalid DOM property `%s`. Did you mean `%s`?%s clip-path clipPath 
+    at g
+    at svg
+    at button
+    at div
+    at AddProviderButton (webpack-internal:///(app-pages-browser)/./src/components/launches/add.provider.component.tsx:84:13)
+    at div
+    at div
+    at div
+    at CalendarWeekProvider (webpack-internal:///(app-pages-browser)/./src/components/launches/calendar.context.tsx:91:11)
+    at DndProvider (webpack-internal:///(app-pages-browser)/../../node_modules/react-dnd/dist/core/DndProvider.js:43:11)
+    at DNDProvider (webpack-internal:///(app-pages-browser)/./src/components/launches/helpers/dnd.provider.tsx:12:11)
+    at LaunchesComponent (webpack-internal:///(app-pages-browser)/./src/components/launches/launches.component.tsx:463:96)
+    at Index (Server)
+    at InnerLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:243:11)
+    at RedirectErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:74:9)
+    at RedirectBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:82:11)
+    at NotFoundBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at LoadingBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:349:11)
+    at ErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/error-boundary.js:160:11)
+    at InnerScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:153:9)
+    at ScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:228:11)
+    at RenderFromTemplateContext (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/render-from-template-context.js:16:44)
+    at OuterLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:370:11)
+    at InnerLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:243:11)
+    at RedirectErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:74:9)
+    at RedirectBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:82:11)
+    at NotFoundBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at LoadingBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:349:11)
+    at ErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/error-boundary.js:160:11)
+    at InnerScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:153:9)
+    at ScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:228:11)
+    at RenderFromTemplateContext (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/render-from-template-context.js:16:44)
+    at OuterLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:370:11)
+    at div
+    at div
+    at div
+    at div
+    at CheckPayment (webpack-internal:///(app-pages-browser)/./src/components/layout/check.payment.tsx:24:16)
+    at div
+    at div
+    at ModalManager (webpack-internal:///(app-pages-browser)/./src/components/layout/new-modal.tsx:335:11)
+    at MantineWrapper (webpack-internal:///(app-pages-browser)/../../libraries/react-shared-libraries/src/helpers/mantine.wrapper.tsx:17:19)
+    at CopilotMessages (webpack-internal:///(app-pages-browser)/../../node_modules/@copilotkit/react-core/dist/chunk-C6IANC2R.mjs:44:28)
+    at MessagesTapProvider (webpack-internal:///(app-pages-browser)/../../node_modules/@copilotkit/react-core/dist/chunk-C6IANC2R.mjs:34:32)
+    at CopilotKitInternal (webpack-internal:///(app-pages-browser)/../../node_modules/@copilotkit/react-core/dist/chunk-CI4KD357.mjs:194:26)
+    at CopilotErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/@copilotkit/react-core/dist/chunk-N4VN2B5S.mjs:23:5)
+    at ToastProvider (webpack-internal:///(app-pages-browser)/../../node_modules/@copilotkit/react-core/dist/chunk-EFL5OBKN.mjs:69:3)
+    at CopilotKit (webpack-internal:///(app-pages-browser)/../../node_modules/@copilotkit/react-core/dist/chunk-CI4KD357.mjs:187:18)
+    at ContextWrapper (webpack-internal:///(app-pages-browser)/./src/components/layout/user.context.tsx:17:11)
+    at LayoutComponent (webpack-internal:///(app-pages-browser)/./src/components/new-layout/layout.component.tsx:81:11)
+    at Layout (Server)
+    at InnerLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:243:11)
+    at RedirectErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:74:9)
+    at RedirectBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:82:11)
+    at NotFoundErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:76:9)
+    at NotFoundBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at LoadingBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:349:11)
+    at ErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/error-boundary.js:160:11)
+    at InnerScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:153:9)
+    at ScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:228:11)
+    at RenderFromTemplateContext (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/render-from-template-context.js:16:44)
+    at OuterLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:370:11)
+    at FetchWrapperComponent (webpack-internal:///(app-pages-browser)/../../libraries/helpers/src/utils/custom.fetch.tsx:26:13)
+    at LayoutContextInner (webpack-internal:///(app-pages-browser)/./src/components/layout/layout.context.tsx:45:120)
+    at LayoutContext
+    at PHProvider (webpack-internal:///(app-pages-browser)/../../libraries/react-shared-libraries/src/helpers/posthog.tsx:16:11)
+    at SentryComponent (webpack-internal:///(app-pages-browser)/./src/components/layout/sentry.component.tsx:16:11)
+    at VariableContextComponent (webpack-internal:///(app-pages-browser)/../../libraries/react-shared-libraries/src/helpers/variable.context.tsx:41:13)
+    at body
+    at html
+    at AppLayout (Server)
+    at InnerLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:243:11)
+    at RedirectErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:74:9)
+    at RedirectBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:82:11)
+    at NotFoundErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:76:9)
+    at NotFoundBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at LoadingBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:349:11)
+    at ErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/error-boundary.js:160:11)
+    at InnerScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:153:9)
+    at ScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:228:11)
+    at RenderFromTemplateContext (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/render-from-template-context.js:16:44)
+    at OuterLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:370:11)
+    at RedirectErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:74:9)
+    at RedirectBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:82:11)
+    at NotFoundErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:76:9)
+    at NotFoundBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at DevRootNotFoundBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/dev-root-not-found-boundary.js:33:11)
+    at ReactDevOverlay (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/react-dev-overlay/app/ReactDevOverlay.js:87:9)
+    at HotReload (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:321:11)
+    at Router (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/app-router.js:207:11)
+    at ErrorBoundaryHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/error-boundary.js:113:9)
+    at ErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/error-boundary.js:160:11)
+    at AppRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/app-router.js:585:13)
+    at ServerRoot (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/app-index.js:112:27)
+    at Root (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/app-index.js:117:11) @ webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/app-index.js:32
+[  113790ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/sets:0
+[  113791ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/signatures/default:0
+[  113791ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/posts?display=week&customer=&startDate=2026-03-16T04%3A00%3A00%2B00%3A00&endDate=2026-03-23T03%3A59%3A59%2B00%3A00:0
+[  117278ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/user/organizations:0
+[  117298ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/notifications:0
+[  117300ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/copilot/chat:0
+[  121013ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/user/organizations:0
+[  121015ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/copilot/chat:0
+[  121016ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/notifications:0
+[  124399ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/user/organizations:0
+[  124401ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/notifications:0
+[  124402ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/copilot/chat:0
+[  127955ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/user/organizations:0
+[  127956ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/notifications:0
+[  127958ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/copilot/chat:0
+[  131612ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/notifications:0
+[  131613ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/user/organizations:0
+[  131616ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/copilot/chat:0
+[  131637ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/integrations/list:0
+[  131646ms] [ERROR] Warning: Invalid DOM property `%s`. Did you mean `%s`?%s clip-path clipPath 
+    at g
+    at svg
+    at button
+    at div
+    at AddProviderButton (webpack-internal:///(app-pages-browser)/./src/components/launches/add.provider.component.tsx:84:13)
+    at div
+    at div
+    at div
+    at CalendarWeekProvider (webpack-internal:///(app-pages-browser)/./src/components/launches/calendar.context.tsx:91:11)
+    at DndProvider (webpack-internal:///(app-pages-browser)/../../node_modules/react-dnd/dist/core/DndProvider.js:43:11)
+    at DNDProvider (webpack-internal:///(app-pages-browser)/./src/components/launches/helpers/dnd.provider.tsx:12:11)
+    at LaunchesComponent (webpack-internal:///(app-pages-browser)/./src/components/launches/launches.component.tsx:463:96)
+    at Index (Server)
+    at InnerLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:243:11)
+    at RedirectErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:74:9)
+    at RedirectBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:82:11)
+    at NotFoundBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at LoadingBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:349:11)
+    at ErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/error-boundary.js:160:11)
+    at InnerScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:153:9)
+    at ScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:228:11)
+    at RenderFromTemplateContext (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/render-from-template-context.js:16:44)
+    at OuterLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:370:11)
+    at InnerLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:243:11)
+    at RedirectErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:74:9)
+    at RedirectBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:82:11)
+    at NotFoundBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at LoadingBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:349:11)
+    at ErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/error-boundary.js:160:11)
+    at InnerScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:153:9)
+    at ScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:228:11)
+    at RenderFromTemplateContext (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/render-from-template-context.js:16:44)
+    at OuterLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:370:11)
+    at div
+    at div
+    at div
+    at div
+    at CheckPayment (webpack-internal:///(app-pages-browser)/./src/components/layout/check.payment.tsx:24:16)
+    at div
+    at div
+    at ModalManager (webpack-internal:///(app-pages-browser)/./src/components/layout/new-modal.tsx:335:11)
+    at MantineWrapper (webpack-internal:///(app-pages-browser)/../../libraries/react-shared-libraries/src/helpers/mantine.wrapper.tsx:17:19)
+    at CopilotMessages (webpack-internal:///(app-pages-browser)/../../node_modules/@copilotkit/react-core/dist/chunk-C6IANC2R.mjs:44:28)
+    at MessagesTapProvider (webpack-internal:///(app-pages-browser)/../../node_modules/@copilotkit/react-core/dist/chunk-C6IANC2R.mjs:34:32)
+    at CopilotKitInternal (webpack-internal:///(app-pages-browser)/../../node_modules/@copilotkit/react-core/dist/chunk-CI4KD357.mjs:194:26)
+    at CopilotErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/@copilotkit/react-core/dist/chunk-N4VN2B5S.mjs:23:5)
+    at ToastProvider (webpack-internal:///(app-pages-browser)/../../node_modules/@copilotkit/react-core/dist/chunk-EFL5OBKN.mjs:69:3)
+    at CopilotKit (webpack-internal:///(app-pages-browser)/../../node_modules/@copilotkit/react-core/dist/chunk-CI4KD357.mjs:187:18)
+    at ContextWrapper (webpack-internal:///(app-pages-browser)/./src/components/layout/user.context.tsx:17:11)
+    at LayoutComponent (webpack-internal:///(app-pages-browser)/./src/components/new-layout/layout.component.tsx:81:11)
+    at Layout (Server)
+    at InnerLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:243:11)
+    at RedirectErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:74:9)
+    at RedirectBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:82:11)
+    at NotFoundErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:76:9)
+    at NotFoundBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at LoadingBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:349:11)
+    at ErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/error-boundary.js:160:11)
+    at InnerScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:153:9)
+    at ScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:228:11)
+    at RenderFromTemplateContext (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/render-from-template-context.js:16:44)
+    at OuterLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:370:11)
+    at FetchWrapperComponent (webpack-internal:///(app-pages-browser)/../../libraries/helpers/src/utils/custom.fetch.tsx:26:13)
+    at LayoutContextInner (webpack-internal:///(app-pages-browser)/./src/components/layout/layout.context.tsx:45:120)
+    at LayoutContext
+    at PHProvider (webpack-internal:///(app-pages-browser)/../../libraries/react-shared-libraries/src/helpers/posthog.tsx:16:11)
+    at SentryComponent (webpack-internal:///(app-pages-browser)/./src/components/layout/sentry.component.tsx:16:11)
+    at VariableContextComponent (webpack-internal:///(app-pages-browser)/../../libraries/react-shared-libraries/src/helpers/variable.context.tsx:41:13)
+    at body
+    at html
+    at AppLayout (Server)
+    at InnerLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:243:11)
+    at RedirectErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:74:9)
+    at RedirectBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:82:11)
+    at NotFoundErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:76:9)
+    at NotFoundBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at LoadingBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:349:11)
+    at ErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/error-boundary.js:160:11)
+    at InnerScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:153:9)
+    at ScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:228:11)
+    at RenderFromTemplateContext (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/render-from-template-context.js:16:44)
+    at OuterLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:370:11)
+    at RedirectErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:74:9)
+    at RedirectBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:82:11)
+    at NotFoundErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:76:9)
+    at NotFoundBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at DevRootNotFoundBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/dev-root-not-found-boundary.js:33:11)
+    at ReactDevOverlay (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/react-dev-overlay/app/ReactDevOverlay.js:87:9)
+    at HotReload (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:321:11)
+    at Router (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/app-router.js:207:11)
+    at ErrorBoundaryHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/error-boundary.js:113:9)
+    at ErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/error-boundary.js:160:11)
+    at AppRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/app-router.js:585:13)
+    at ServerRoot (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/app-index.js:112:27)
+    at Root (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/app-index.js:117:11) @ webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/app-index.js:32
+[  131717ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/posts?display=week&customer=&startDate=2026-03-16T04%3A00%3A00%2B00%3A00&endDate=2026-03-23T03%3A59%3A59%2B00%3A00:0
+[  131735ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/sets:0
+[  131736ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/signatures/default:0
+[  135883ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/user/organizations:0
+[  135891ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/notifications:0
+[  135895ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/copilot/chat:0
+[  141570ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/user/organizations:0
+[  141572ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/notifications:0
+[  141573ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/copilot/chat:0
+[  141721ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/integrations/list:0
+[  141742ms] [ERROR] Warning: Invalid DOM property `%s`. Did you mean `%s`?%s clip-path clipPath 
+    at g
+    at svg
+    at button
+    at div
+    at AddProviderButton (webpack-internal:///(app-pages-browser)/./src/components/launches/add.provider.component.tsx:84:13)
+    at div
+    at div
+    at div
+    at CalendarWeekProvider (webpack-internal:///(app-pages-browser)/./src/components/launches/calendar.context.tsx:91:11)
+    at DndProvider (webpack-internal:///(app-pages-browser)/../../node_modules/react-dnd/dist/core/DndProvider.js:43:11)
+    at DNDProvider (webpack-internal:///(app-pages-browser)/./src/components/launches/helpers/dnd.provider.tsx:12:11)
+    at LaunchesComponent (webpack-internal:///(app-pages-browser)/./src/components/launches/launches.component.tsx:463:96)
+    at Index (Server)
+    at InnerLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:243:11)
+    at RedirectErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:74:9)
+    at RedirectBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:82:11)
+    at NotFoundBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at LoadingBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:349:11)
+    at ErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/error-boundary.js:160:11)
+    at InnerScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:153:9)
+    at ScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:228:11)
+    at RenderFromTemplateContext (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/render-from-template-context.js:16:44)
+    at OuterLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:370:11)
+    at InnerLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:243:11)
+    at RedirectErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:74:9)
+    at RedirectBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:82:11)
+    at NotFoundBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at LoadingBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:349:11)
+    at ErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/error-boundary.js:160:11)
+    at InnerScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:153:9)
+    at ScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:228:11)
+    at RenderFromTemplateContext (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/render-from-template-context.js:16:44)
+    at OuterLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:370:11)
+    at div
+    at div
+    at div
+    at div
+    at CheckPayment (webpack-internal:///(app-pages-browser)/./src/components/layout/check.payment.tsx:24:16)
+    at div
+    at div
+    at ModalManager (webpack-internal:///(app-pages-browser)/./src/components/layout/new-modal.tsx:335:11)
+    at MantineWrapper (webpack-internal:///(app-pages-browser)/../../libraries/react-shared-libraries/src/helpers/mantine.wrapper.tsx:17:19)
+    at CopilotMessages (webpack-internal:///(app-pages-browser)/../../node_modules/@copilotkit/react-core/dist/chunk-C6IANC2R.mjs:44:28)
+    at MessagesTapProvider (webpack-internal:///(app-pages-browser)/../../node_modules/@copilotkit/react-core/dist/chunk-C6IANC2R.mjs:34:32)
+    at CopilotKitInternal (webpack-internal:///(app-pages-browser)/../../node_modules/@copilotkit/react-core/dist/chunk-CI4KD357.mjs:194:26)
+    at CopilotErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/@copilotkit/react-core/dist/chunk-N4VN2B5S.mjs:23:5)
+    at ToastProvider (webpack-internal:///(app-pages-browser)/../../node_modules/@copilotkit/react-core/dist/chunk-EFL5OBKN.mjs:69:3)
+    at CopilotKit (webpack-internal:///(app-pages-browser)/../../node_modules/@copilotkit/react-core/dist/chunk-CI4KD357.mjs:187:18)
+    at ContextWrapper (webpack-internal:///(app-pages-browser)/./src/components/layout/user.context.tsx:17:11)
+    at LayoutComponent (webpack-internal:///(app-pages-browser)/./src/components/new-layout/layout.component.tsx:81:11)
+    at Layout (Server)
+    at InnerLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:243:11)
+    at RedirectErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:74:9)
+    at RedirectBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:82:11)
+    at NotFoundErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:76:9)
+    at NotFoundBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at LoadingBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:349:11)
+    at ErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/error-boundary.js:160:11)
+    at InnerScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:153:9)
+    at ScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:228:11)
+    at RenderFromTemplateContext (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/render-from-template-context.js:16:44)
+    at OuterLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:370:11)
+    at FetchWrapperComponent (webpack-internal:///(app-pages-browser)/../../libraries/helpers/src/utils/custom.fetch.tsx:26:13)
+    at LayoutContextInner (webpack-internal:///(app-pages-browser)/./src/components/layout/layout.context.tsx:45:120)
+    at LayoutContext
+    at PHProvider (webpack-internal:///(app-pages-browser)/../../libraries/react-shared-libraries/src/helpers/posthog.tsx:16:11)
+    at SentryComponent (webpack-internal:///(app-pages-browser)/./src/components/layout/sentry.component.tsx:16:11)
+    at VariableContextComponent (webpack-internal:///(app-pages-browser)/../../libraries/react-shared-libraries/src/helpers/variable.context.tsx:41:13)
+    at body
+    at html
+    at AppLayout (Server)
+    at InnerLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:243:11)
+    at RedirectErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:74:9)
+    at RedirectBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:82:11)
+    at NotFoundErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:76:9)
+    at NotFoundBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at LoadingBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:349:11)
+    at ErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/error-boundary.js:160:11)
+    at InnerScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:153:9)
+    at ScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:228:11)
+    at RenderFromTemplateContext (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/render-from-template-context.js:16:44)
+    at OuterLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:370:11)
+    at RedirectErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:74:9)
+    at RedirectBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:82:11)
+    at NotFoundErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:76:9)
+    at NotFoundBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at DevRootNotFoundBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/dev-root-not-found-boundary.js:33:11)
+    at ReactDevOverlay (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/react-dev-overlay/app/ReactDevOverlay.js:87:9)
+    at HotReload (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:321:11)
+    at Router (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/app-router.js:207:11)
+    at ErrorBoundaryHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/error-boundary.js:113:9)
+    at ErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/error-boundary.js:160:11)
+    at AppRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/app-router.js:585:13)
+    at ServerRoot (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/app-index.js:112:27)
+    at Root (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/app-index.js:117:11) @ webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/app-index.js:32
+[  141822ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/sets:0
+[  141823ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/posts?display=week&customer=&startDate=2026-03-16T04%3A00%3A00%2B00%3A00&endDate=2026-03-23T03%3A59%3A59%2B00%3A00:0
+[  141848ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/signatures/default:0
+[  146529ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/copilot/chat:0
+[  146530ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/notifications:0
+[  146530ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/user/organizations:0
+[  151601ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/user/organizations:0
+[  151609ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/notifications:0
+[  151612ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/copilot/chat:0
+[  157363ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/user/organizations:0
+[  157403ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/notifications:0
+[  157407ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/copilot/chat:0
+[  157491ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/integrations/list:0
+[  157518ms] [ERROR] Warning: Invalid DOM property `%s`. Did you mean `%s`?%s clip-path clipPath 
+    at g
+    at svg
+    at button
+    at div
+    at AddProviderButton (webpack-internal:///(app-pages-browser)/./src/components/launches/add.provider.component.tsx:84:13)
+    at div
+    at div
+    at div
+    at CalendarWeekProvider (webpack-internal:///(app-pages-browser)/./src/components/launches/calendar.context.tsx:91:11)
+    at DndProvider (webpack-internal:///(app-pages-browser)/../../node_modules/react-dnd/dist/core/DndProvider.js:43:11)
+    at DNDProvider (webpack-internal:///(app-pages-browser)/./src/components/launches/helpers/dnd.provider.tsx:12:11)
+    at LaunchesComponent (webpack-internal:///(app-pages-browser)/./src/components/launches/launches.component.tsx:463:96)
+    at Index (Server)
+    at InnerLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:243:11)
+    at RedirectErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:74:9)
+    at RedirectBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:82:11)
+    at NotFoundBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at LoadingBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:349:11)
+    at ErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/error-boundary.js:160:11)
+    at InnerScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:153:9)
+    at ScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:228:11)
+    at RenderFromTemplateContext (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/render-from-template-context.js:16:44)
+    at OuterLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:370:11)
+    at InnerLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:243:11)
+    at RedirectErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:74:9)
+    at RedirectBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:82:11)
+    at NotFoundBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at LoadingBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:349:11)
+    at ErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/error-boundary.js:160:11)
+    at InnerScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:153:9)
+    at ScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:228:11)
+    at RenderFromTemplateContext (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/render-from-template-context.js:16:44)
+    at OuterLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:370:11)
+    at div
+    at div
+    at div
+    at div
+    at CheckPayment (webpack-internal:///(app-pages-browser)/./src/components/layout/check.payment.tsx:24:16)
+    at div
+    at div
+    at ModalManager (webpack-internal:///(app-pages-browser)/./src/components/layout/new-modal.tsx:335:11)
+    at MantineWrapper (webpack-internal:///(app-pages-browser)/../../libraries/react-shared-libraries/src/helpers/mantine.wrapper.tsx:17:19)
+    at CopilotMessages (webpack-internal:///(app-pages-browser)/../../node_modules/@copilotkit/react-core/dist/chunk-C6IANC2R.mjs:44:28)
+    at MessagesTapProvider (webpack-internal:///(app-pages-browser)/../../node_modules/@copilotkit/react-core/dist/chunk-C6IANC2R.mjs:34:32)
+    at CopilotKitInternal (webpack-internal:///(app-pages-browser)/../../node_modules/@copilotkit/react-core/dist/chunk-CI4KD357.mjs:194:26)
+    at CopilotErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/@copilotkit/react-core/dist/chunk-N4VN2B5S.mjs:23:5)
+    at ToastProvider (webpack-internal:///(app-pages-browser)/../../node_modules/@copilotkit/react-core/dist/chunk-EFL5OBKN.mjs:69:3)
+    at CopilotKit (webpack-internal:///(app-pages-browser)/../../node_modules/@copilotkit/react-core/dist/chunk-CI4KD357.mjs:187:18)
+    at ContextWrapper (webpack-internal:///(app-pages-browser)/./src/components/layout/user.context.tsx:17:11)
+    at LayoutComponent (webpack-internal:///(app-pages-browser)/./src/components/new-layout/layout.component.tsx:81:11)
+    at Layout (Server)
+    at InnerLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:243:11)
+    at RedirectErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:74:9)
+    at RedirectBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:82:11)
+    at NotFoundErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:76:9)
+    at NotFoundBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at LoadingBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:349:11)
+    at ErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/error-boundary.js:160:11)
+    at InnerScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:153:9)
+    at ScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:228:11)
+    at RenderFromTemplateContext (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/render-from-template-context.js:16:44)
+    at OuterLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:370:11)
+    at FetchWrapperComponent (webpack-internal:///(app-pages-browser)/../../libraries/helpers/src/utils/custom.fetch.tsx:26:13)
+    at LayoutContextInner (webpack-internal:///(app-pages-browser)/./src/components/layout/layout.context.tsx:45:120)
+    at LayoutContext
+    at PHProvider (webpack-internal:///(app-pages-browser)/../../libraries/react-shared-libraries/src/helpers/posthog.tsx:16:11)
+    at SentryComponent (webpack-internal:///(app-pages-browser)/./src/components/layout/sentry.component.tsx:16:11)
+    at VariableContextComponent (webpack-internal:///(app-pages-browser)/../../libraries/react-shared-libraries/src/helpers/variable.context.tsx:41:13)
+    at body
+    at html
+    at AppLayout (Server)
+    at InnerLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:243:11)
+    at RedirectErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:74:9)
+    at RedirectBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:82:11)
+    at NotFoundErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:76:9)
+    at NotFoundBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at LoadingBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:349:11)
+    at ErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/error-boundary.js:160:11)
+    at InnerScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:153:9)
+    at ScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:228:11)
+    at RenderFromTemplateContext (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/render-from-template-context.js:16:44)
+    at OuterLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:370:11)
+    at RedirectErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:74:9)
+    at RedirectBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:82:11)
+    at NotFoundErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:76:9)
+    at NotFoundBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at DevRootNotFoundBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/dev-root-not-found-boundary.js:33:11)
+    at ReactDevOverlay (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/react-dev-overlay/app/ReactDevOverlay.js:87:9)
+    at HotReload (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:321:11)
+    at Router (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/app-router.js:207:11)
+    at ErrorBoundaryHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/error-boundary.js:113:9)
+    at ErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/error-boundary.js:160:11)
+    at AppRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/app-router.js:585:13)
+    at ServerRoot (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/app-index.js:112:27)
+    at Root (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/app-index.js:117:11) @ webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/app-index.js:32
+[  157608ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/posts?display=week&customer=&startDate=2026-03-16T04%3A00%3A00%2B00%3A00&endDate=2026-03-23T03%3A59%3A59%2B00%3A00:0
+[  157633ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/sets:0
+[  157633ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/signatures/default:0
+[  162837ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/user/organizations:0
+[  162841ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/notifications:0
+[  162848ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/copilot/chat:0
+[  163598ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/integrations/list:0
+[  163627ms] [ERROR] Warning: Invalid DOM property `%s`. Did you mean `%s`?%s clip-path clipPath 
+    at g
+    at svg
+    at button
+    at div
+    at AddProviderButton (webpack-internal:///(app-pages-browser)/./src/components/launches/add.provider.component.tsx:84:13)
+    at div
+    at div
+    at div
+    at CalendarWeekProvider (webpack-internal:///(app-pages-browser)/./src/components/launches/calendar.context.tsx:91:11)
+    at DndProvider (webpack-internal:///(app-pages-browser)/../../node_modules/react-dnd/dist/core/DndProvider.js:43:11)
+    at DNDProvider (webpack-internal:///(app-pages-browser)/./src/components/launches/helpers/dnd.provider.tsx:12:11)
+    at LaunchesComponent (webpack-internal:///(app-pages-browser)/./src/components/launches/launches.component.tsx:463:96)
+    at Index (Server)
+    at InnerLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:243:11)
+    at RedirectErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:74:9)
+    at RedirectBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:82:11)
+    at NotFoundBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at LoadingBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:349:11)
+    at ErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/error-boundary.js:160:11)
+    at InnerScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:153:9)
+    at ScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:228:11)
+    at RenderFromTemplateContext (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/render-from-template-context.js:16:44)
+    at OuterLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:370:11)
+    at InnerLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:243:11)
+    at RedirectErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:74:9)
+    at RedirectBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:82:11)
+    at NotFoundBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at LoadingBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:349:11)
+    at ErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/error-boundary.js:160:11)
+    at InnerScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:153:9)
+    at ScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:228:11)
+    at RenderFromTemplateContext (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/render-from-template-context.js:16:44)
+    at OuterLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:370:11)
+    at div
+    at div
+    at div
+    at div
+    at CheckPayment (webpack-internal:///(app-pages-browser)/./src/components/layout/check.payment.tsx:24:16)
+    at div
+    at div
+    at ModalManager (webpack-internal:///(app-pages-browser)/./src/components/layout/new-modal.tsx:335:11)
+    at MantineWrapper (webpack-internal:///(app-pages-browser)/../../libraries/react-shared-libraries/src/helpers/mantine.wrapper.tsx:17:19)
+    at CopilotMessages (webpack-internal:///(app-pages-browser)/../../node_modules/@copilotkit/react-core/dist/chunk-C6IANC2R.mjs:44:28)
+    at MessagesTapProvider (webpack-internal:///(app-pages-browser)/../../node_modules/@copilotkit/react-core/dist/chunk-C6IANC2R.mjs:34:32)
+    at CopilotKitInternal (webpack-internal:///(app-pages-browser)/../../node_modules/@copilotkit/react-core/dist/chunk-CI4KD357.mjs:194:26)
+    at CopilotErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/@copilotkit/react-core/dist/chunk-N4VN2B5S.mjs:23:5)
+    at ToastProvider (webpack-internal:///(app-pages-browser)/../../node_modules/@copilotkit/react-core/dist/chunk-EFL5OBKN.mjs:69:3)
+    at CopilotKit (webpack-internal:///(app-pages-browser)/../../node_modules/@copilotkit/react-core/dist/chunk-CI4KD357.mjs:187:18)
+    at ContextWrapper (webpack-internal:///(app-pages-browser)/./src/components/layout/user.context.tsx:17:11)
+    at LayoutComponent (webpack-internal:///(app-pages-browser)/./src/components/new-layout/layout.component.tsx:81:11)
+    at Layout (Server)
+    at InnerLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:243:11)
+    at RedirectErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:74:9)
+    at RedirectBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:82:11)
+    at NotFoundErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:76:9)
+    at NotFoundBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at LoadingBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:349:11)
+    at ErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/error-boundary.js:160:11)
+    at InnerScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:153:9)
+    at ScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:228:11)
+    at RenderFromTemplateContext (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/render-from-template-context.js:16:44)
+    at OuterLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:370:11)
+    at FetchWrapperComponent (webpack-internal:///(app-pages-browser)/../../libraries/helpers/src/utils/custom.fetch.tsx:26:13)
+    at LayoutContextInner (webpack-internal:///(app-pages-browser)/./src/components/layout/layout.context.tsx:45:120)
+    at LayoutContext
+    at PHProvider (webpack-internal:///(app-pages-browser)/../../libraries/react-shared-libraries/src/helpers/posthog.tsx:16:11)
+    at SentryComponent (webpack-internal:///(app-pages-browser)/./src/components/layout/sentry.component.tsx:16:11)
+    at VariableContextComponent (webpack-internal:///(app-pages-browser)/../../libraries/react-shared-libraries/src/helpers/variable.context.tsx:41:13)
+    at body
+    at html
+    at AppLayout (Server)
+    at InnerLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:243:11)
+    at RedirectErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:74:9)
+    at RedirectBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:82:11)
+    at NotFoundErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:76:9)
+    at NotFoundBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at LoadingBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:349:11)
+    at ErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/error-boundary.js:160:11)
+    at InnerScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:153:9)
+    at ScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:228:11)
+    at RenderFromTemplateContext (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/render-from-template-context.js:16:44)
+    at OuterLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:370:11)
+    at RedirectErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:74:9)
+    at RedirectBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:82:11)
+    at NotFoundErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:76:9)
+    at NotFoundBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at DevRootNotFoundBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/dev-root-not-found-boundary.js:33:11)
+    at ReactDevOverlay (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/react-dev-overlay/app/ReactDevOverlay.js:87:9)
+    at HotReload (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:321:11)
+    at Router (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/app-router.js:207:11)
+    at ErrorBoundaryHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/error-boundary.js:113:9)
+    at ErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/error-boundary.js:160:11)
+    at AppRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/app-router.js:585:13)
+    at ServerRoot (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/app-index.js:112:27)
+    at Root (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/app-index.js:117:11) @ webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/app-index.js:32
+[  163695ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/posts?display=week&customer=&startDate=2026-03-16T04%3A00%3A00%2B00%3A00&endDate=2026-03-23T03%3A59%3A59%2B00%3A00:0
+[  163716ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/sets:0
+[  163717ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/signatures/default:0
+[  169346ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/user/organizations:0
+[  169351ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/notifications:0
+[  169355ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/copilot/chat:0
+[  169590ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/integrations/list:0
+[  169613ms] [ERROR] Warning: Invalid DOM property `%s`. Did you mean `%s`?%s clip-path clipPath 
+    at g
+    at svg
+    at button
+    at div
+    at AddProviderButton (webpack-internal:///(app-pages-browser)/./src/components/launches/add.provider.component.tsx:84:13)
+    at div
+    at div
+    at div
+    at CalendarWeekProvider (webpack-internal:///(app-pages-browser)/./src/components/launches/calendar.context.tsx:91:11)
+    at DndProvider (webpack-internal:///(app-pages-browser)/../../node_modules/react-dnd/dist/core/DndProvider.js:43:11)
+    at DNDProvider (webpack-internal:///(app-pages-browser)/./src/components/launches/helpers/dnd.provider.tsx:12:11)
+    at LaunchesComponent (webpack-internal:///(app-pages-browser)/./src/components/launches/launches.component.tsx:463:96)
+    at Index (Server)
+    at InnerLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:243:11)
+    at RedirectErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:74:9)
+    at RedirectBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:82:11)
+    at NotFoundBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at LoadingBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:349:11)
+    at ErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/error-boundary.js:160:11)
+    at InnerScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:153:9)
+    at ScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:228:11)
+    at RenderFromTemplateContext (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/render-from-template-context.js:16:44)
+    at OuterLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:370:11)
+    at InnerLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:243:11)
+    at RedirectErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:74:9)
+    at RedirectBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:82:11)
+    at NotFoundBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at LoadingBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:349:11)
+    at ErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/error-boundary.js:160:11)
+    at InnerScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:153:9)
+    at ScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:228:11)
+    at RenderFromTemplateContext (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/render-from-template-context.js:16:44)
+    at OuterLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:370:11)
+    at div
+    at div
+    at div
+    at div
+    at CheckPayment (webpack-internal:///(app-pages-browser)/./src/components/layout/check.payment.tsx:24:16)
+    at div
+    at div
+    at ModalManager (webpack-internal:///(app-pages-browser)/./src/components/layout/new-modal.tsx:335:11)
+    at MantineWrapper (webpack-internal:///(app-pages-browser)/../../libraries/react-shared-libraries/src/helpers/mantine.wrapper.tsx:17:19)
+    at CopilotMessages (webpack-internal:///(app-pages-browser)/../../node_modules/@copilotkit/react-core/dist/chunk-C6IANC2R.mjs:44:28)
+    at MessagesTapProvider (webpack-internal:///(app-pages-browser)/../../node_modules/@copilotkit/react-core/dist/chunk-C6IANC2R.mjs:34:32)
+    at CopilotKitInternal (webpack-internal:///(app-pages-browser)/../../node_modules/@copilotkit/react-core/dist/chunk-CI4KD357.mjs:194:26)
+    at CopilotErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/@copilotkit/react-core/dist/chunk-N4VN2B5S.mjs:23:5)
+    at ToastProvider (webpack-internal:///(app-pages-browser)/../../node_modules/@copilotkit/react-core/dist/chunk-EFL5OBKN.mjs:69:3)
+    at CopilotKit (webpack-internal:///(app-pages-browser)/../../node_modules/@copilotkit/react-core/dist/chunk-CI4KD357.mjs:187:18)
+    at ContextWrapper (webpack-internal:///(app-pages-browser)/./src/components/layout/user.context.tsx:17:11)
+    at LayoutComponent (webpack-internal:///(app-pages-browser)/./src/components/new-layout/layout.component.tsx:81:11)
+    at Layout (Server)
+    at InnerLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:243:11)
+    at RedirectErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:74:9)
+    at RedirectBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:82:11)
+    at NotFoundErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:76:9)
+    at NotFoundBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at LoadingBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:349:11)
+    at ErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/error-boundary.js:160:11)
+    at InnerScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:153:9)
+    at ScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:228:11)
+    at RenderFromTemplateContext (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/render-from-template-context.js:16:44)
+    at OuterLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:370:11)
+    at FetchWrapperComponent (webpack-internal:///(app-pages-browser)/../../libraries/helpers/src/utils/custom.fetch.tsx:26:13)
+    at LayoutContextInner (webpack-internal:///(app-pages-browser)/./src/components/layout/layout.context.tsx:45:120)
+    at LayoutContext
+    at PHProvider (webpack-internal:///(app-pages-browser)/../../libraries/react-shared-libraries/src/helpers/posthog.tsx:16:11)
+    at SentryComponent (webpack-internal:///(app-pages-browser)/./src/components/layout/sentry.component.tsx:16:11)
+    at VariableContextComponent (webpack-internal:///(app-pages-browser)/../../libraries/react-shared-libraries/src/helpers/variable.context.tsx:41:13)
+    at body
+    at html
+    at AppLayout (Server)
+    at InnerLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:243:11)
+    at RedirectErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:74:9)
+    at RedirectBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:82:11)
+    at NotFoundErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:76:9)
+    at NotFoundBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at LoadingBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:349:11)
+    at ErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/error-boundary.js:160:11)
+    at InnerScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:153:9)
+    at ScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:228:11)
+    at RenderFromTemplateContext (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/render-from-template-context.js:16:44)
+    at OuterLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:370:11)
+    at RedirectErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:74:9)
+    at RedirectBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:82:11)
+    at NotFoundErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:76:9)
+    at NotFoundBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at DevRootNotFoundBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/dev-root-not-found-boundary.js:33:11)
+    at ReactDevOverlay (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/react-dev-overlay/app/ReactDevOverlay.js:87:9)
+    at HotReload (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:321:11)
+    at Router (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/app-router.js:207:11)
+    at ErrorBoundaryHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/error-boundary.js:113:9)
+    at ErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/error-boundary.js:160:11)
+    at AppRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/app-router.js:585:13)
+    at ServerRoot (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/app-index.js:112:27)
+    at Root (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/app-index.js:117:11) @ webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/app-index.js:32
+[  169678ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/sets:0
+[  169678ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/posts?display=week&customer=&startDate=2026-03-16T04%3A00%3A00%2B00%3A00&endDate=2026-03-23T03%3A59%3A59%2B00%3A00:0
+[  169713ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/signatures/default:0
+[  174763ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/user/organizations:0
+[  174766ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/notifications:0
+[  174770ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/copilot/chat:0
+[  175163ms] [ERROR] Warning: Invalid DOM property `%s`. Did you mean `%s`?%s clip-path clipPath 
+    at g
+    at svg
+    at button
+    at div
+    at AddProviderButton (webpack-internal:///(app-pages-browser)/./src/components/launches/add.provider.component.tsx:84:13)
+    at div
+    at div
+    at div
+    at CalendarWeekProvider (webpack-internal:///(app-pages-browser)/./src/components/launches/calendar.context.tsx:91:11)
+    at DndProvider (webpack-internal:///(app-pages-browser)/../../node_modules/react-dnd/dist/core/DndProvider.js:43:11)
+    at DNDProvider (webpack-internal:///(app-pages-browser)/./src/components/launches/helpers/dnd.provider.tsx:12:11)
+    at LaunchesComponent (webpack-internal:///(app-pages-browser)/./src/components/launches/launches.component.tsx:463:96)
+    at Index (Server)
+    at InnerLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:243:11)
+    at RedirectErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:74:9)
+    at RedirectBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:82:11)
+    at NotFoundBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at LoadingBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:349:11)
+    at ErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/error-boundary.js:160:11)
+    at InnerScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:153:9)
+    at ScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:228:11)
+    at RenderFromTemplateContext (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/render-from-template-context.js:16:44)
+    at OuterLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:370:11)
+    at InnerLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:243:11)
+    at RedirectErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:74:9)
+    at RedirectBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:82:11)
+    at NotFoundBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at LoadingBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:349:11)
+    at ErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/error-boundary.js:160:11)
+    at InnerScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:153:9)
+    at ScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:228:11)
+    at RenderFromTemplateContext (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/render-from-template-context.js:16:44)
+    at OuterLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:370:11)
+    at div
+    at div
+    at div
+    at div
+    at CheckPayment (webpack-internal:///(app-pages-browser)/./src/components/layout/check.payment.tsx:24:16)
+    at div
+    at div
+    at ModalManager (webpack-internal:///(app-pages-browser)/./src/components/layout/new-modal.tsx:335:11)
+    at MantineWrapper (webpack-internal:///(app-pages-browser)/../../libraries/react-shared-libraries/src/helpers/mantine.wrapper.tsx:17:19)
+    at CopilotMessages (webpack-internal:///(app-pages-browser)/../../node_modules/@copilotkit/react-core/dist/chunk-C6IANC2R.mjs:44:28)
+    at MessagesTapProvider (webpack-internal:///(app-pages-browser)/../../node_modules/@copilotkit/react-core/dist/chunk-C6IANC2R.mjs:34:32)
+    at CopilotKitInternal (webpack-internal:///(app-pages-browser)/../../node_modules/@copilotkit/react-core/dist/chunk-CI4KD357.mjs:194:26)
+    at CopilotErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/@copilotkit/react-core/dist/chunk-N4VN2B5S.mjs:23:5)
+    at ToastProvider (webpack-internal:///(app-pages-browser)/../../node_modules/@copilotkit/react-core/dist/chunk-EFL5OBKN.mjs:69:3)
+    at CopilotKit (webpack-internal:///(app-pages-browser)/../../node_modules/@copilotkit/react-core/dist/chunk-CI4KD357.mjs:187:18)
+    at ContextWrapper (webpack-internal:///(app-pages-browser)/./src/components/layout/user.context.tsx:17:11)
+    at LayoutComponent (webpack-internal:///(app-pages-browser)/./src/components/new-layout/layout.component.tsx:81:11)
+    at Layout (Server)
+    at InnerLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:243:11)
+    at RedirectErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:74:9)
+    at RedirectBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:82:11)
+    at NotFoundErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:76:9)
+    at NotFoundBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at LoadingBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:349:11)
+    at ErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/error-boundary.js:160:11)
+    at InnerScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:153:9)
+    at ScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:228:11)
+    at RenderFromTemplateContext (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/render-from-template-context.js:16:44)
+    at OuterLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:370:11)
+    at FetchWrapperComponent (webpack-internal:///(app-pages-browser)/../../libraries/helpers/src/utils/custom.fetch.tsx:26:13)
+    at LayoutContextInner (webpack-internal:///(app-pages-browser)/./src/components/layout/layout.context.tsx:45:120)
+    at LayoutContext
+    at PHProvider (webpack-internal:///(app-pages-browser)/../../libraries/react-shared-libraries/src/helpers/posthog.tsx:16:11)
+    at SentryComponent (webpack-internal:///(app-pages-browser)/./src/components/layout/sentry.component.tsx:16:11)
+    at VariableContextComponent (webpack-internal:///(app-pages-browser)/../../libraries/react-shared-libraries/src/helpers/variable.context.tsx:41:13)
+    at body
+    at html
+    at AppLayout (Server)
+    at InnerLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:243:11)
+    at RedirectErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:74:9)
+    at RedirectBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:82:11)
+    at NotFoundErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:76:9)
+    at NotFoundBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at LoadingBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:349:11)
+    at ErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/error-boundary.js:160:11)
+    at InnerScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:153:9)
+    at ScrollAndFocusHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:228:11)
+    at RenderFromTemplateContext (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/render-from-template-context.js:16:44)
+    at OuterLayoutRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/layout-router.js:370:11)
+    at RedirectErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:74:9)
+    at RedirectBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/redirect-boundary.js:82:11)
+    at NotFoundErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:76:9)
+    at NotFoundBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at DevRootNotFoundBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/dev-root-not-found-boundary.js:33:11)
+    at ReactDevOverlay (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/react-dev-overlay/app/ReactDevOverlay.js:87:9)
+    at HotReload (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:321:11)
+    at Router (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/app-router.js:207:11)
+    at ErrorBoundaryHandler (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/error-boundary.js:113:9)
+    at ErrorBoundary (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/error-boundary.js:160:11)
+    at AppRouter (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/components/app-router.js:585:13)
+    at ServerRoot (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/app-index.js:112:27)
+    at Root (webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/app-index.js:117:11) @ webpack-internal:///(app-pages-browser)/../../node_modules/next/dist/client/app-index.js:32
+[  180209ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/user/organizations:0
+[  180233ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/notifications:0
+[  180235ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/copilot/chat:0
+[  183500ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/copilot/chat:0
+[  183500ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/notifications:0
+[  183501ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/user/organizations:0
+[  186814ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/user/organizations:0
+[  186815ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/notifications:0
+[  186816ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/copilot/chat:0
+[  189846ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/copilot/chat:0
+[  189846ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/notifications:0
+[  189847ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/user/organizations:0
+[  192650ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/user/organizations:0
+[  192653ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/notifications:0
+[  192653ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/copilot/chat:0
+[  195621ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/copilot/chat:0
+[  195624ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/user/organizations:0
+[  195628ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/notifications:0
+[  198391ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/user/organizations:0
+[  198393ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/notifications:0
+[  198394ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/copilot/chat:0
+[  202721ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/user/organizations:0
+[  202726ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/notifications:0
+[  202727ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/copilot/chat:0
+[  206985ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/user/organizations:0
+[  206987ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/notifications:0
+[  206989ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/copilot/chat:0
+[  209099ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/user/organizations:0
+[  209100ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/copilot/chat:0
+[  209100ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/notifications:0
+[  211729ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/user/organizations:0
+[  211731ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/copilot/chat:0
+[  211732ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/notifications:0

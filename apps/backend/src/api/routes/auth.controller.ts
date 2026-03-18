@@ -69,15 +69,17 @@ export class AuthController {
         return;
       }
 
+      const isLocalhost = process.env.FRONTEND_URL?.includes('localhost');
       response.cookie('auth', jwt, {
         domain: getCookieUrlFromDomain(process.env.FRONTEND_URL!),
-        ...(!process.env.NOT_SECURED
+        ...(!process.env.NOT_SECURED && !isLocalhost
           ? {
               secure: true,
               httpOnly: true,
               sameSite: 'none',
             }
           : {}),
+        ...(isLocalhost ? { httpOnly: true } : {}),
         expires: new Date(Date.now() + 1000 * 60 * 60 * 24 * 365),
       });
 
@@ -88,13 +90,14 @@ export class AuthController {
       if (typeof addedOrg !== 'boolean' && addedOrg?.organizationId) {
         response.cookie('showorg', addedOrg.organizationId, {
           domain: getCookieUrlFromDomain(process.env.FRONTEND_URL!),
-          ...(!process.env.NOT_SECURED
+          ...(!process.env.NOT_SECURED && !isLocalhost
             ? {
                 secure: true,
                 httpOnly: true,
                 sameSite: 'none',
               }
             : {}),
+          ...(isLocalhost ? { httpOnly: true } : {}),
           expires: new Date(Date.now() + 1000 * 60 * 60 * 24 * 365),
         });
 
@@ -134,15 +137,17 @@ export class AuthController {
         getOrgFromCookie
       );
 
+      const isLocalhost = process.env.FRONTEND_URL?.includes('localhost');
       response.cookie('auth', jwt, {
         domain: getCookieUrlFromDomain(process.env.FRONTEND_URL!),
-        ...(!process.env.NOT_SECURED
+        ...(!process.env.NOT_SECURED && !isLocalhost
           ? {
               secure: true,
               httpOnly: true,
               sameSite: 'none',
             }
           : {}),
+        ...(isLocalhost ? { httpOnly: true } : {}),
         expires: new Date(Date.now() + 1000 * 60 * 60 * 24 * 365),
       });
 
@@ -153,13 +158,14 @@ export class AuthController {
       if (typeof addedOrg !== 'boolean' && addedOrg?.organizationId) {
         response.cookie('showorg', addedOrg.organizationId, {
           domain: getCookieUrlFromDomain(process.env.FRONTEND_URL!),
-          ...(!process.env.NOT_SECURED
+          ...(!process.env.NOT_SECURED && !isLocalhost
             ? {
                 secure: true,
                 httpOnly: true,
                 sameSite: 'none',
               }
             : {}),
+          ...(isLocalhost ? { httpOnly: true } : {}),
           expires: new Date(Date.now() + 1000 * 60 * 60 * 24 * 365),
         });
 

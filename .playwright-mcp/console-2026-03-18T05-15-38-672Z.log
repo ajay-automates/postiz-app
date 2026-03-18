@@ -1,0 +1,10 @@
+[     615ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:4200/_next/static/css/app/(app)/layout.css?v=1773810939148:0
+[     655ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:4200/_next/static/chunks/main-app.js?v=1773810939148:0
+[     656ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:4200/_next/static/chunks/app-pages-internals.js:0
+[     657ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:4200/_next/static/chunks/app/global-error.js:0
+[    5327ms] [WARNING] The resource http://localhost:4200/_next/static/css/app/(app)/(site)/launches/page.css?v=1773810939148 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:4200/launches:0
+[   15641ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:4200/_next/static/css/app/(app)/layout.css?v=1773810954214:0
+[   15652ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:4200/_next/static/chunks/app-pages-internals.js:0
+[   15652ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:4200/_next/static/chunks/app/global-error.js:0
+[   15652ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:4200/_next/static/chunks/main-app.js?v=1773810954214:0
+[   20094ms] [WARNING] The resource http://localhost:4200/_next/static/css/app/(app)/(site)/launches/page.css?v=1773810954214 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:4200/launches:0

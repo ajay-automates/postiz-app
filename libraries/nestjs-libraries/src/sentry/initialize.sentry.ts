@@ -1,5 +1,4 @@
 import * as Sentry from '@sentry/nestjs';
-import { nodeProfilingIntegration } from '@sentry/profiling-node';
 import { capitalize } from 'lodash';
 
 export const initializeSentry = (appName: string, allowLogs = false) => {
@@ -8,6 +7,22 @@ export const initializeSentry = (appName: string, allowLogs = false) => {
   }
 
   try {
+    let integrations: any[] = [
+      Sentry.consoleLoggingIntegration({ levels: ['log', 'info', 'warn', 'error', 'debug', 'assert', 'trace'] }),
+      Sentry.openAIIntegration({
+        recordInputs: true,
+        recordOutputs: true,
+      }),
+    ];
+
+    // Only add profiling integration if available
+    try {
+      const { nodeProfilingIntegration } = require('@sentry/profiling-node');
+      integrations.unshift(nodeProfilingIntegration());
+    } catch (err) {
+      // Profiling integration not available, continue without it
+    }
+
     Sentry.init({
       initialScope: {
         tags: {
@@ -23,15 +38,7 @@ export const initializeSentry = (appName: string, allowLogs = false) => {
       environment: process.env.NODE_ENV || 'development',
       dsn: process.env.NEXT_PUBLIC_SENTRY_DSN,
       spotlight: process.env.SENTRY_SPOTLIGHT === '1',
-      integrations: [
-        // Add our Profiling integration
-        nodeProfilingIntegration(),
-        Sentry.consoleLoggingIntegration({ levels: ['log', 'info', 'warn', 'error', 'debug', 'assert', 'trace'] }),
-        Sentry.openAIIntegration({
-          recordInputs: true,
-          recordOutputs: true,
-        }),
-      ],
+      integrations,
       tracesSampleRate: 1.0,
       enableLogs: true,
 

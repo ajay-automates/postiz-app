@@ -51,6 +51,9 @@ export const customFetch = (
       if (url === '/signatures/default') {
         return new Response(JSON.stringify(null), { status: 200, headers: { 'Content-Type': 'application/json' } });
       }
+      if (url.includes('/posts')) {
+        return new Response(JSON.stringify([]), { status: 200, headers: { 'Content-Type': 'application/json' } });
+      }
       if (url.includes('/launches')) {
         return new Response(JSON.stringify([]), { status: 200, headers: { 'Content-Type': 'application/json' } });
       }

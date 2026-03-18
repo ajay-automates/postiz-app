@@ -1,0 +1,2 @@
+[     322ms] [ERROR] Failed to load resource: the server responded with a status of 502 () @ https://postiz-app-production-2c2a.up.railway.app/:0
+[     576ms] [ERROR] Failed to load resource: the server responded with a status of 502 () @ https://postiz-app-production-2c2a.up.railway.app/favicon.ico:0
