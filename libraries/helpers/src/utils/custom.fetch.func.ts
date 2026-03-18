@@ -111,6 +111,13 @@ export const customFetch = (
         return new Response(JSON.stringify([]), { status: 200, headers: { 'Content-Type': 'application/json' } });
       }
 
+      // Mock social integration OAuth endpoints
+      if (url.includes('/integrations/social/')) {
+        return new Response(JSON.stringify({
+          url: 'https://oauth.example.com/auth'
+        }), { status: 200, headers: { 'Content-Type': 'application/json' } });
+      }
+
       // Mock CopilotKit endpoints
       if (url.includes('/api/copilot')) {
         return new Response(JSON.stringify({}), { status: 200, headers: { 'Content-Type': 'application/json' } });
