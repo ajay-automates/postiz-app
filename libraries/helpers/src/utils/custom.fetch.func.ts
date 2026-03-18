@@ -39,6 +39,12 @@ export const customFetch = (
       if (url === '/user/organizations') {
         return new Response(JSON.stringify([]), { status: 200, headers: { 'Content-Type': 'application/json' } });
       }
+      if (url === '/integrations') {
+        return new Response(JSON.stringify({
+          social: [],
+          article: []
+        }), { status: 200, headers: { 'Content-Type': 'application/json' } });
+      }
       if (url === '/notifications') {
         return new Response(JSON.stringify([]), { status: 200, headers: { 'Content-Type': 'application/json' } });
       }
